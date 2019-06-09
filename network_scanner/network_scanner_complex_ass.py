@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import scapy.all as scapy
+import optparse
 
 def print_result(clients_list):
     print("_"*50)
@@ -20,6 +21,19 @@ def scan(ip):
         clients_list.append(client_dict)
     return clients_list
 
+def get_ip():
+    parser = optparse.OptionParser()
+
+    parser.add_option("-r", "--iprange", dest = "ip_range")
+
+    (options, arguments) = parser.parse_args()
+
+    ip_range = options.ip_range
+
+    if not ip_range:
+        ip_range = raw_input("ip range >")
+    return ip_range
 
 if __name__ == "__main__":
-    print_result(scan("192.168.0.1/24"))
+    ip_range = get_ip()
+    print_result(scan(ip_range))
