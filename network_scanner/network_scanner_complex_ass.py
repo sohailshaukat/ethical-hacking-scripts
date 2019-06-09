@@ -9,7 +9,6 @@ def print_result(clients_list):
     for client in clients_list:
         print(client["ip"]+"\t\t"+client["mac"])
 
-
 def scan(ip):
     arp_request = scapy.ARP(pdst = ip)
     broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
