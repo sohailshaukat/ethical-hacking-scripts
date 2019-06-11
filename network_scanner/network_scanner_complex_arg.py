@@ -22,7 +22,8 @@ def scan(ip):
 
 def get_ip():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-r", "--iprange", dest = "ip_range")
+    parser.add_argument("-r", "--iprange", dest = "ip_range", help = "IP range to be scanned")
+
     options = parser.parse_args()
     ip_range = options.ip_range
     if not ip_range:
