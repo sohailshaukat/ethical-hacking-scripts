@@ -45,7 +45,7 @@ if __name__ == "__main__":
             sent_packets_count += 2
             print("\r[+]Packets sent: "+str(sent_packets_count), end = "")
             sys.stdout.flush()
-            time.sleep(2)
+            time.sleep(1)
     except KeyboardInterrupt:
         print("\n[-] Detected CTRL+C ..... Resetting ARP tables.... Please wait.")
         restore(target_ip,gateway_ip)
