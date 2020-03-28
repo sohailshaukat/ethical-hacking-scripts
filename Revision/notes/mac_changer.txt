@@ -1,0 +1,28 @@
+eth0: ethernet
+wlan0: wifi
+
+Mac_address is a unique address allocated to every personal computer. MAC stands for media access control.
+It is Permanent, Physical and Unique.
+It is assigned to network interfaces by device manufacuturer and is device specific. (netword interface device.)
+It is a 12 digit hexadecimal string seperated by ':'.
+For e.g:
+    00:11:22:33:44:55
+
+Every mac has source mac and destination mac.
+
+MAC is used to identify devices, hence changing it helps with Anonymity.
+Changing MAC can also be used to impersonate other device and bypass filters.
+
+How to change MAC Address:
+    
+A. Disable the interface:
+    ifconfig "interface" down
+B. Modify it's option:
+    ifconfig "interface" hw ether "new_mac_addr"
+C. Enable the interface:
+    ifconfig "interface" up
+
+e.g: 
+    ifconfig wlan0 down
+    ifconfig wlan0 hw ehter "00:11:22:33:44:55" 
+    ifconfig wlan0 up

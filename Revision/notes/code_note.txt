@@ -1,0 +1,42 @@
+subprocess module is used to execute shell commands via python.
+
+subprocess.call() is a function that will wait till the process is fully executed and after that it will move on to next line.
+
+Having no input filter or restriction would cause security lapse.
+
+one could hijack an input by entering other unpermitter commands after a ';'
+
+subprocess.call() could be used in two ways
+    a.
+        subprocess.call("ls -l")    
+            This is prone to hijacking as while taking input from user one could append other unexpected command after a ';'.
+        e.g. subprocess.call("ls "+input())
+            here one could pass input as
+                -l;ifconfig;
+        and both the commands would get executed,
+    b.
+        subprocess.call(["ifconfig","wlan0",input()])
+            This restricts the input to programmer specified limit.
+
+
+For passing in commandline arguments for python2:
+
+optparse module is utilized.
+
+parser = optparse.OptionParser() will initiate an option pareser.
+
+'.add_option()' is the method to add options. Could be done in below shown way.
+
+   parser.add_option("-i","--interface", dest="interface", help="Interface to change it's MAC address.")
+    
+'.parse_args()' is the method that returns tuple of (options,arguments)
+
+both options and arguments are now objects that carry values as attributes.
+
+
+
+'subprocess.check_output()' is a method that takes in shell command as input and returns the output of the shell command.
+
+Usage e.g:
+    ifconfig_result = subprocess.check_output(["ifconfig", "wlan0"])
+
