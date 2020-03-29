@@ -1,0 +1,29 @@
+Easiest way to send an ARP ping is by using 'arping(ip)' method.
+
+code snippet:
+
+'''
+from scapy.all import *
+
+def scan(ip):
+    arping(ip)
+
+scan("192.168.0.107")
+
+#or
+#scan("192.168.0.1/16")
+'''
+
+scapy.ARP() is a method that is used to create arp_request.
+
+to get the list of arguments following 'ls' command could be used.
+
+    scapy.ls(scapy.ARP())
+
+sc.Ether() will create a broadcast ether frame which can be appended to arp_request. 
+
+.summary() will return a short summarised sting to print giving a brief information about packet.
+
+.show() will print detailed information about the packet. 
+
+sc.srp() is a method that takes in request as argument, sends to the dest in ether frame, recives the responseand returns it

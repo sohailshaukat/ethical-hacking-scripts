@@ -1,0 +1,25 @@
+Net Scanner is a tool which can be used to scan through all the devices on same network interface.
+
+One of th method is netdiscover, usage mentioned below:
+    
+    netdiscover -r "range of ips in my subnet"/subnetmask
+
+        netdiscover -r 10.0.2.1/24
+
+    netdiscover -i "interface_name"
+    
+        netdiscover -i wlan0
+
+ARP - Address Resolution Protocol
+    allows us to link ip addr with MAC addr
+    
+To communicate with another machine, machine 1 needs to know the MAC addr of machine 2.
+To obtain MAC address a broadcast message is sent, it sends an ARP request to a specific MAC address also known as BroadcastMAC address.
+
+machine 1  >> arp request >> router >>"who has the matching ip? >> all clients >> matching client will respond with ARP Response >> "I have matching ip, take my MAC addr" >> machine 1.
+
+
+All clients on same network will recieve the message, querying for matching ip.
+
+Only the client with matching ip will responf with the mac addr.
+
