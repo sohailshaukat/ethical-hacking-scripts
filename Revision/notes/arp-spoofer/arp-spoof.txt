@@ -1,0 +1,49 @@
+Idea of arp-spoof it to be a man in the middle and get unauthorised access to information.
+
+ARP is not very secure.
+
+ARP is used so that clients can identify other clients connected to the network and get their MAC addr.
+
+Clients connect with each other on same network using MAC addr.
+
+Each computer maintains ARP table which links IP addr on same nw to their MAC addr.
+
+command to check arp table : ' arp -a '
+    This command will result in a ip vs mac table.
+
+This table can be easily modified by exploiting ARP protocol.
+
+We can send two ARP responses to gateway and victim.
+
+To gateway : "I am at ip of victim"
+
+To victim : "I am at ip of gateway"
+
+and both will update their arp table and associate ips agains our mac addr.
+
+And now anytime victim wants to make a request, the request will flow through our machine to the router, and also vice-versa.
+
+Main reason this is possible because ARP is not secure,
+*Clients can accept responses even if they did not send request.
+*Client trust response without any form of verification.
+
+
+'arpspoof' is a tool which can be used to do the same.
+
+usage e.g.:
+    arpspoof -i interface -t target_ip imposter_ip
+    
+    arpspoof -i eth0 -t 10.0.2.7 10.0.2.1
+
+Please note this is only one half of the operation.Here we're spoofing client at ip '10.0.2.7' that we have the ip of the gateway, i.e. '10.0.2.1'
+
+command to enable port forwarding:
+    
+    echo 1 > /proc/sys/net/ipv4/ip_forward
+
+to get ip of the router:
+    
+    route -n
+
+    
+

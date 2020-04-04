@@ -1,0 +1,12 @@
+scapy.ARP() takes in op as one of the arguments.
+
+op = 1 -> for ARP request. -> 'who has'
+op = 2 -> for ARP response. -> 'is at'
+
+putting ',' after print statement saves the print statement to buffer instead of printing it out. Once the program is exited the buffer will be cleared.
+
+sys.stdout.flush() will flush this buffer and instead of putting the print statement in bufferm it will flush the buffer and spill out the print statement.
+
+'\r' tells python to print only from start of the line.
+
+for python3 we wont need to add ',' and sys.stdout.flush() instead we can provide an argument 'end=""'.
