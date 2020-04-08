@@ -1,0 +1,8 @@
+Objective of a packet sniffer is to
+    1.  CAPTURE data flowing through an interface.
+    2.  FILTER this data.
+    3.  DISPLAY interesting information.
+
+A packet sniffer is used in conjunction with a man in the middle attack(arp-spoof).
+
+

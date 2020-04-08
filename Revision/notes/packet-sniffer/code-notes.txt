@@ -1,0 +1,79 @@
+Method named 'sniff' is used to to sniff data through an iface.
+
+SYNTAX
+
+import scapy.all as scapy
+scapy.sniff(iface=[interface], prn=[callback function])
+
+callback function is a func that will be called everytime the sniff function captures a packet.
+
+argument 'filter' in sniff function can be used to filter packets using BPF syntax (burqini packet filter syntax)
+
+eg,
+    filter =
+            "udp"
+            "arp"
+            "tcp"
+            "port 21" for ftp
+            "port 80" for webserver
+
+For more visit : biot.com/capstats/bpf.html
+
+BPF however does not provide a filter to capture data over HTTP i.e data being sent to websites.
+
+for that we need to install a third party module "scapy_http"
+
+to import this module syntax is:
+
+from scapy.layers import http
+
+we can check for existence of http layer in a packet by using .haslayer() method.
+syntax example:
+
+    if haslayer(http.HTTPRequest):
+
+Following two websites have login on http:
+    stealmylogin.com/demo.html
+
+    testphp.vulnweb.com/login.php
+
+we can use 'packet.show()' method to view all layers.
+
+There you can find HTTP layer and other layers.
+
+We should be looking for a Method = POST under HTTP layer.
+
+Would somewhat look like this:
+
+
+###[ HTTP ] ###
+###[ HTTP Request ] ###
+    Method = u'POST'
+
+For username and password genreally contained under layer named RAW.
+
+Under Raw it is contained under field named 'load'
+
+Load may contain gibberish data too.
+
+We can further filter by checking for substrings in load.
+
+For urls : It is genreally contained in HTTP layer with method = "Get"
+
+The url will be under the field name 'Path'
+
+Path will only contain the URL's substring after the domain name.
+
+Host will contain the domain name.
+
+For us to extract the URL we'll need to merge both.
+
+Would somewhat look like this:
+
+###[ HTTP ] ###
+###[ HTTP Request ] ###
+    Method = u'GET'
+    Path = u'/share/bitmaps/test_pattern.svg'
+    Http-Version = u'HTTP/1.1'
+    Host = u'wisemann.codiferes.net'
+
