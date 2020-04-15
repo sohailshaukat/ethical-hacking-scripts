@@ -1,0 +1,51 @@
+Net CUT
+
+    Scapy can be used to
+        1. Create Packets
+        2. Analyse Packets
+        3. Send/Receive Packets
+        
+    But it can not be used to intercept packets/flows.
+
+We can be in middle of the connection, receiving packets and sending packets through us and now we can modify/alter the packet according to our need.
+
+If we try to capture packets and alter them and send them on the go generally the intended/original request will be sent before the modified one and hence target will use that.
+
+But if stop and collect those requests and put them in a queue and modify them in python program and then send those request then target will only receive one packet (modified one).
+
+Same can be done for responses.
+
+We need to redirect packets to the queue.
+
+This can be done by using a program called 'iptables' .
+
+The below command can be used to do same
+
+    iptables -I FORWARD -j NFQUEUE --queue-num 0
+
+prior to doing 'pip install netfilterqueue', you need to install a library by command:
+
+    apt-get install build-essential python-dev libnetfilter-queue-dev
+    
+since the above iptables command is for Remote machine, they only go in forward chain when they come from a different computer.
+
+For local computer:
+
+    iptables -I OUTPUT -j NFQUEUE --queue-num 0
+
+OUTPUT chain is the chain through which the packets going from my computer will go through.
+
+Packets coming to my computer will come through INPUT chain.
+
+we can  capture both packets in INput and Output chain by executing above command for both input and output chain.
+
+    iptables -I OUTPUT -j NFQUEUE --queue-num 0
+   
+    iptables -I INPUT -j NFQUEUE --queue-num 0
+
+
+packet.get_payload() will show the actual content of the packet.
+
+To convert packet to scapy packet use scapy.IP() and pass the payload as argument
+e.g. 
+    scapy.IP(packet.get_payload())

@@ -1,0 +1,41 @@
+FIRST YOU'LL HAVE TO BE A MITM(MAN IN THE MIDDLE) BY ARP-SPOOFING THE TARGET
+
+After the capturing of packets to a queue by using
+
+    iptables -I FORWARD -j NFQUEUE --queue-num 0
+
+here we captured our packets to a queue numbered '0'
+
+in our python program we use 'netfilter' module.We create a queue using netfilterqueue.NetfilterQueue()
+
+then we bind the queue created using iptables with this instance of 'queue'
+
+we can then pass the packet by giving a call back function.
+
+example:
+    
+    queue.bind(0, process_packet)
+
+
+packet.accept() will forward packets else packets wont be allowed to go to tgt.
+
+packet.drop() will drop them and not forward.
+
+now once done, make sure you delete the iptable queue at start.
+
+    to do that execute 'iptable --flush'
+
+To do same for a local environmennt use
+
+    iptables -I OUTPUT -j NFQUEUE -queue-num 0
+
+    iptables -I INPUT -j NFQUEU -queue-num 0
+
+
+######################################## DNS spoof
+
+to check for DNS Response / DNS Request layers 
+
+    use .haslayer() method For DNS Response argument should be scapy.DNSRR and for DNS Reques argument should be scapy.DNSQR
+
+

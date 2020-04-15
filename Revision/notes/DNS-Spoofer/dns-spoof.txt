@@ -1,0 +1,15 @@
+to start webserver on kali command is
+
+    service apache2 start
+
+DNS -> Domain Name Server
+
+After enabling the webserver you can openthe webpage hosted by the webserver by entering the ip in browser on same network
+
+Each of such instances are mapped according to their ips
+
+When an URL is entered, DNS does the 1-1 mapping of IP and URL. So computer will send the request to DNServer this just designed to resolve domain names to ipaddress.
+
+Then DNServer will send a response to the user and will return the ip of domain and now computer can access the website.
+
+Basically by altering the DNS response we can redirect user to website hosted by our webserver.
