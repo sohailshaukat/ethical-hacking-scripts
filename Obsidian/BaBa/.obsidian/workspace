@@ -1,0 +1,82 @@
+{
+  "main": {
+    "id": "c3ce1f1630d865e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7cdf271809888be",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "WebApplication/XSS.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46e64be30ecb9588",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fb490949a2cf57b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8692334f637a1798",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "94fe3715b111bd0f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de305d9505f94305",
+    "type": "split",
+    "children": [
+      {
+        "id": "8804f9eb2084e321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "489013a094781980",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WebApplication/XSS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "WebApplication/Untitled.md",
+    "WebApplication/Untitled 1.md"
+  ]
+}
