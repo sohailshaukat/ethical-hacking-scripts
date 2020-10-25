@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebApplication/XSS.md",
+            "file": "WebApplication/JuiceShop.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebApplication/XSS.md"
+                "file": "WebApplication/JuiceShop.md"
               }
             }
           }
@@ -76,7 +76,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "WebApplication/JuiceShop.md",
+    "Pasted image 20201025202518.png",
+    "WebApplication/OWASP-Top-10.md",
     "WebApplication/Untitled.md",
+    "WebApplication/XSS.md",
     "WebApplication/Untitled 1.md"
   ]
 }
