@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebApplication/HYDRA.md",
+            "file": "WebApplication/XSS.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebApplication/HYDRA.md"
+                "file": "WebApplication/XSS.md"
               }
             }
           }
@@ -76,11 +76,13 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "WebApplication/Untitled.md",
-    "WebApplication/JuiceShop.md",
-    "Pasted image 20201025202518.png",
-    "WebApplication/OWASP-Top-10.md",
     "WebApplication/XSS.md",
+    "WebApplication/OWASP-Top-10.md",
+    "WebApplication/JuiceShop.md",
+    "Pasted image 20201101130729.png",
+    "WebApplication/HYDRA.md",
+    "WebApplication/Untitled.md",
+    "Pasted image 20201025202518.png",
     "WebApplication/Untitled 1.md"
   ]
 }
