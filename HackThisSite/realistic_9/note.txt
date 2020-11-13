@@ -1,0 +1,4 @@
+It's beyond the scope of this mission to check the XSS. So, assume you got this cookie:
+strUsername=m-crap%40crappysoft.com; strPassword=94a35a3b7befff5eb2a8415af04aa16c; intID=1;
+
+
