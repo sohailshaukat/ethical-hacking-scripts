@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "34f526d70eb36ff7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4528ba92abd8045",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BugBountyMethodology/Section-1.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "55b82af8f4c733eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5c13d47cbd45a4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8c2e724246cdb0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b633f01c2dd96eff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "098ce9618f557c81",
+    "type": "split",
+    "children": [
+      {
+        "id": "2999eee17ea4b4e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "232c839fea52340f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BugBountyMethodology/Section-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "BugBountyMethodology/Untitled.md"
+  ]
+}
