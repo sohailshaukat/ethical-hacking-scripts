@@ -1,0 +1,33 @@
+perl web proxy
+
+fetches page and then filters content
+
+root
+	Teacher pages (NA)
+		Mr. Bardus (NA)
+			Deadend with navigation links
+			jbardus@doesnt.exist.edu.
+		Mr. Smith (NA)
+			Deadend
+			Obsessed with matrix and agent smith
+		Mr. Englebert (NA)
+			Obsessed with pi
+
+	Student Work
+		Tom Bigman (NA)
+			2 corrupt images			
+		Snezana Antic & Nolan Ethix (NA)	
+			Goth websites with link to each other
+		Joey Simons 
+			Windows 95 website
+			Sign my guestbook
+				Text field
+		Sarah Mathis (NA)
+			Deadend
+
+	Testing Scores (NA)
+		DeadEnd
+
+
+
+DONE!!
