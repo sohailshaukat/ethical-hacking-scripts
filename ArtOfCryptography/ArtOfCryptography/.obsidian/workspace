@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SymmetricEncryption/StreamCipher VS BlockCipher.md",
+            "file": "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SymmetricEncryption/StreamCipher VS BlockCipher.md",
+                "file": "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
+    "MoreOnBlockCipher/BlockCipherSchemes/DataEncryptionStandard(DES).md",
+    "MoreOnBlockCipher/BlockCipherSchemes/Untitled.md",
+    "MoreOnBlockCipher/Untitled.md",
+    "MoreOnBlockCipher/FeistelCipher.md",
+    "SymmetricEncryption/ModernSymmetricCryptography.md",
+    "BlockCipherModesOfOperation/Untitled.md",
+    "SymmetricEncryption/StreamCipher VS BlockCipher.md",
     "SymmetricEncryption/Untitled.md",
-    "SymmetricEncryption/SymmetricEncryption.md",
-    "Untitled.md"
+    "SymmetricEncryption/SymmetricEncryption.md"
   ]
 }
