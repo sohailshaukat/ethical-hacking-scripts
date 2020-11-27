@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "34f526d70eb36ff7",
+    "id": "a9477af1628e0029",
     "type": "split",
     "children": [
       {
-        "id": "c4528ba92abd8045",
+        "id": "d8e251b503a93941",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BugBountyMethodology/Section-1.md",
+            "file": "SymmetricEncryption/StreamCipher VS BlockCipher.md",
             "mode": "source"
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "55b82af8f4c733eb",
+    "id": "29230e94422bbb97",
     "type": "split",
     "children": [
       {
-        "id": "d5c13d47cbd45a4e",
+        "id": "d16adbf161449bb5",
         "type": "tabs",
         "children": [
           {
-            "id": "a8c2e724246cdb0e",
+            "id": "ae0c3daf35e5f14f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "b633f01c2dd96eff",
+            "id": "4c4cde2118bf065d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "098ce9618f557c81",
+    "id": "5074cc080ffeec2f",
     "type": "split",
     "children": [
       {
-        "id": "2999eee17ea4b4e6",
+        "id": "115a33a562abd615",
         "type": "tabs",
         "children": [
           {
-            "id": "232c839fea52340f",
+            "id": "30c96c4ed45908e3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BugBountyMethodology/Section-1.md",
+                "file": "SymmetricEncryption/StreamCipher VS BlockCipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "BugBountyMethodology/Section-1.md",
-    "BugBountyMethodology/Untitled.md"
+    "SymmetricEncryption/Untitled.md",
+    "SymmetricEncryption/SymmetricEncryption.md",
+    "Untitled.md"
   ]
 }
