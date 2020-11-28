@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
+            "file": "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
             "mode": "source"
           }
         }
@@ -69,12 +69,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
+                "file": "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
+    "MoreOnBlockCipher/BlockCipherModesOfOperation.md",
+    "MoreOnBlockCipher/BlockCipherSchemes/ProminentSchemes.md",
+    "AsymmetricEncryption/RSAAlgorithm.md",
+    "AsymmetricEncryption/ElipticCurveCryptography(ECC).md",
+    "AsymmetricEncryption/Difiie-HellmanAlgorithm.md",
+    "AsymmetricEncryption/AsymmetricEncryption.md",
+    "SymmetricEncryption/BlockCiphers.md",
     "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
-    "MoreOnBlockCipher/BlockCipherSchemes/DataEncryptionStandard(DES).md",
-    "MoreOnBlockCipher/BlockCipherSchemes/Untitled.md",
-    "MoreOnBlockCipher/Untitled.md",
-    "MoreOnBlockCipher/FeistelCipher.md",
-    "SymmetricEncryption/ModernSymmetricCryptography.md",
-    "BlockCipherModesOfOperation/Untitled.md",
-    "SymmetricEncryption/StreamCipher VS BlockCipher.md",
-    "SymmetricEncryption/Untitled.md",
-    "SymmetricEncryption/SymmetricEncryption.md"
+    "MoreOnBlockCipher/BlockCipherSchemes/IDEA, Twofish, Serpent.md"
   ]
 }

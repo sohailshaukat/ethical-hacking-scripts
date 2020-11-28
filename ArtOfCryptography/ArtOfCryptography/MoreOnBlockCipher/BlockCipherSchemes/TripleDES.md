@@ -6,3 +6,4 @@ Triple DES is implemented by applying three iterations of DES to each data block
 
     Since three iterations of DES is applied, Triple DES is a comparatively slow algorithm.
 
+[[BlockCiphers]]

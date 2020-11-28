@@ -12,3 +12,4 @@ Feistel implementations constitute multiple iterations of repeated operations su
     Simple non-linear functions
     Linear mixing using XOR
 
+[[BlockCiphers]]

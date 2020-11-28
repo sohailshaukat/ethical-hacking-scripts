@@ -67,3 +67,5 @@ Minimum latency, minimum operation overhead
 	-Very efficient encryption and authentication
 	
 ![[Pasted image 20201127181113.png]]
+
+[[BlockCiphers]]

@@ -1,0 +1,1 @@
+MAC provides both integrity and authentica
