@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +50,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "5074cc080ffeec2f",
@@ -69,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +83,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "MoreOnBlockCipher/BlockCipherSchemes/ProminentSchemes.md",
+    "VerifyingIntegrityAndAuthentication/Untitled.md",
+    "AsymmetricEncryption/AsymmetricEncryption.md",
     "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
     "MoreOnBlockCipher/BlockCipherModesOfOperation.md",
-    "MoreOnBlockCipher/BlockCipherSchemes/ProminentSchemes.md",
     "AsymmetricEncryption/RSAAlgorithm.md",
     "AsymmetricEncryption/ElipticCurveCryptography(ECC).md",
     "AsymmetricEncryption/Difiie-HellmanAlgorithm.md",
-    "AsymmetricEncryption/AsymmetricEncryption.md",
     "SymmetricEncryption/BlockCiphers.md",
-    "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md",
-    "MoreOnBlockCipher/BlockCipherSchemes/IDEA, Twofish, Serpent.md"
+    "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md"
   ]
 }
