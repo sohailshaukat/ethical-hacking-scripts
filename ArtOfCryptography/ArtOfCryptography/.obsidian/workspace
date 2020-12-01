@@ -8,9 +8,25 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "SymmetricEncryption/SubstitutionCipher.md",
+            "mode": "source"
+          }
+        },
+        "group": "edb3d8773424b496"
+      },
+      {
+        "id": "55353ec9fc3c21c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SymmetricEncryption/SubstitutionCipher.md",
+            "mode": "preview"
+          }
+        },
+        "group": "edb3d8773424b496"
       }
     ],
     "direction": "vertical"
@@ -50,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "right": {
     "id": "5074cc080ffeec2f",
@@ -67,6 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SymmetricEncryption/SubstitutionCipher.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "MoreOnBlockCipher/BlockCipherSchemes/ProminentSchemes.md",
-    "VerifyingIntegrityAndAuthentication/Untitled.md",
-    "AsymmetricEncryption/AsymmetricEncryption.md",
-    "VerifyingIntegrityAndAuthentication/MessageAuthenticationCode.md",
-    "MoreOnBlockCipher/BlockCipherModesOfOperation.md",
-    "AsymmetricEncryption/RSAAlgorithm.md",
-    "AsymmetricEncryption/ElipticCurveCryptography(ECC).md",
-    "AsymmetricEncryption/Difiie-HellmanAlgorithm.md",
-    "SymmetricEncryption/BlockCiphers.md",
-    "MoreOnBlockCipher/BlockCipherSchemes/TripleDES.md"
+    "SymmetricEncryption/SubstitutionCipher.md",
+    "Summary/Conclusion.md",
+    "Summary/AdditionalFactors.md",
+    "Summary/SavingPassword.md",
+    "Summary/PracticalIssues.md",
+    "Summary/RandomNumbers.md",
+    "Summary/Untitled.md",
+    "Summary/SSL&TLS.md",
+    "Summary/AsymmetricEncryption.md",
+    "Summary/SymmetricEncryption.md"
   ]
 }
