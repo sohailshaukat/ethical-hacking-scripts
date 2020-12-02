@@ -1,0 +1,116 @@
+{
+  "main": {
+    "id": "26abdf870862e9df",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ebcfcc3378a9591",
+        "type": "split",
+        "children": [
+          {
+            "id": "4f0ea2fd23201845",
+            "type": "leaf",
+            "dimension": 50,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction/BurpSuite with HTTPs.md",
+                "mode": "source"
+              }
+            },
+            "group": "16f0fdde08ae6024"
+          },
+          {
+            "id": "3f50f829d71a5c17",
+            "type": "leaf",
+            "dimension": 50,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introduction/BurpSuite with HTTPs.md",
+                "mode": "preview"
+              }
+            },
+            "group": "16f0fdde08ae6024"
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a1b2ee0475f647d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c42e2395a44b8754",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1101ef55e6a6ddfa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "835c6c90ec57c833",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a168be2ac3e8bab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5258952940a1833",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0e79a59d6895402",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction/BurpSuite with HTTPs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Introduction/Untitled.md",
+    "Introduction/HTTPvsHTTPS.md",
+    "Introduction/SSL Handshake.md",
+    "Introduction/Introduction.md"
+  ]
+}
