@@ -15,7 +15,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/BurpSuite with HTTPs.md",
+                "file": "TestingYourEnvironment/ProxyTab.md",
                 "mode": "source"
               }
             },
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/BurpSuite with HTTPs.md",
+                "file": "TestingYourEnvironment/ProxyTab.md",
                 "mode": "preview"
               }
             },
@@ -91,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction/BurpSuite with HTTPs.md",
+                "file": "TestingYourEnvironment/ProxyTab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "TestingYourEnvironment/Untitled.md",
+    "TestingYourEnvironment/Components.md",
+    "Introduction/BurpSuite with HTTPs.md",
     "Introduction/Untitled.md",
     "Introduction/HTTPvsHTTPS.md",
     "Introduction/SSL Handshake.md",
