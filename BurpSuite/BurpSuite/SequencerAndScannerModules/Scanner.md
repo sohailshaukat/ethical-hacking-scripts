@@ -1,0 +1,1 @@
+The scanner does not come with the free version of Burp Suite. It's available only in the Pro version of Burp Suite. So let's look into the video on how to automate a host URL via Burp Suite Scanner to identify the flaws.

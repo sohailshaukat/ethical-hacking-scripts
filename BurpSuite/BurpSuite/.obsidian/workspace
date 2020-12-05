@@ -4,35 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "1ebcfcc3378a9591",
+        "id": "5e7bf15bdbbe5878",
         "type": "split",
         "children": [
           {
             "id": "4f0ea2fd23201845",
             "type": "leaf",
-            "dimension": 50,
             "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TestingYourEnvironment/ProxyTab.md",
+                "file": "SequencerAndScannerModules/Scanner.md",
                 "mode": "source"
               }
             },
-            "group": "16f0fdde08ae6024"
+            "group": "e2fd842f347adf4e"
           },
           {
-            "id": "3f50f829d71a5c17",
+            "id": "1562fc6fba549f86",
             "type": "leaf",
-            "dimension": 50,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TestingYourEnvironment/ProxyTab.md",
+                "file": "SequencerAndScannerModules/Scanner.md",
                 "mode": "preview"
               }
             },
-            "group": "16f0fdde08ae6024"
+            "group": "e2fd842f347adf4e"
           }
         ],
         "direction": "horizontal"
@@ -91,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TestingYourEnvironment/ProxyTab.md",
+                "file": "SequencerAndScannerModules/Scanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,12 +106,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "TestingYourEnvironment/Untitled.md",
-    "TestingYourEnvironment/Components.md",
-    "Introduction/BurpSuite with HTTPs.md",
-    "Introduction/Untitled.md",
+    "SequencerAndScannerModules/Untitled.md",
+    "SequencerAndScannerModules/Sequencer.md",
+    "TargetAndSpiderModules/Untitled.md",
+    "TargetAndSpiderModules/Target.md",
+    "ProxyModule/Components.md",
     "Introduction/HTTPvsHTTPS.md",
     "Introduction/SSL Handshake.md",
-    "Introduction/Introduction.md"
+    "Introduction/Introduction.md",
+    "Introduction/BurpSuite with HTTPs.md",
+    "RepeaterModule/Untitled.md"
   ]
 }
