@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SequencerAndScannerModules/Scanner.md",
+                "file": "Introduction/Introduction.md",
                 "mode": "source"
               }
             },
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SequencerAndScannerModules/Scanner.md",
+                "file": "Introduction/Introduction.md",
                 "mode": "preview"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SequencerAndScannerModules/Scanner.md",
+                "file": "Introduction/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "SequencerAndScannerModules/Untitled.md",
-    "SequencerAndScannerModules/Sequencer.md",
-    "TargetAndSpiderModules/Untitled.md",
-    "TargetAndSpiderModules/Target.md",
-    "ProxyModule/Components.md",
-    "Introduction/HTTPvsHTTPS.md",
-    "Introduction/SSL Handshake.md",
     "Introduction/Introduction.md",
-    "Introduction/BurpSuite with HTTPs.md",
-    "RepeaterModule/Untitled.md"
+    "Documentation/Untitled.md",
+    "IntruderAndComparerModules/Comparer.md",
+    "IntruderAndComparerModules/Untitled.md",
+    "IntruderAndComparerModules/Intruderv2.md",
+    "IntroduerAndComparerModules/Intruder.md",
+    "IntroduerAndComparerModules/Untitled.md",
+    "SequencerAndScannerModules/Scanner.md",
+    "SequencerAndScannerModules/Sequencer.md",
+    "SequencerAndScannerModules/Untitled.md"
   ]
 }

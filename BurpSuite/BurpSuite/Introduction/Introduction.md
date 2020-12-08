@@ -5,3 +5,5 @@ For this purpose, a proxy tool known as **Burp Suite** is widely used among secu
 **Burp Suite** helps to interpret the **( HTTP and HTTPS ) - Request and Response**
 
 ![[Pasted image 20201202153244.png]]
+
+https://portswigger.net/web-security/
