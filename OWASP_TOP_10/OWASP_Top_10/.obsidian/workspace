@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A1-Injection/LDAPInjection.md",
+                "file": "A1-Injection/Prevention.md",
                 "mode": "preview"
               }
             },
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A1-Injection/LDAPInjection.md",
+                "file": "A1-Injection/Prevention.md",
                 "mode": "source"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A1-Injection/LDAPInjection.md",
+                "file": "A1-Injection/Prevention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "A1-Injection/LDAPInjection.md",
+    "A1-Injection/Prevention.md",
     "A1-Injection/Untitled.md",
-    "A1-Injection/Command-Injections.md",
-    "A1-Injection/Other-Injections.md",
+    "A1-Injection/SSI-Injection.md",
+    "A1-Injection/LDAP-Injection.md",
     "A1-Injection/SQL-Injection.md",
-    "Introduction.md",
-    "A1-Injection/Injection.md",
-    "A1-Injection/Blind-SQLi.md",
     "A1-Injection/Union-Based-SQLi.md",
-    "A1-Injection/Error-Based-SQLi.md"
+    "A1-Injection/Command-Injections.md",
+    "A1-Injection/LDAPInjection.md",
+    "A1-Injection/Blind-SQLi.md",
+    "A1-Injection/Other-Injections.md"
   ]
 }
