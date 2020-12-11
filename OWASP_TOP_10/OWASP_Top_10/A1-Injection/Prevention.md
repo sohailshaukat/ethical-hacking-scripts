@@ -1,3 +1,4 @@
+[[Injection]]
 # How to prevent injection attacks?
 - Always sanitize user input data.
 - Keep data separate from commands and queries.
