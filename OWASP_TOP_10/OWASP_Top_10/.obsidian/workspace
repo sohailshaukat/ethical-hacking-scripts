@@ -4,31 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "95cd1770a67b19d5",
+        "id": "caefd62ed48f927d",
         "type": "leaf",
-        "dimension": 52.888888888888886,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
+            "file": "A3-Sensitive-Data-Exposure/Prevention.md",
             "mode": "source"
           }
         },
-        "group": "01987e0319e605fa"
+        "group": "828dc70201a598ad"
       },
       {
-        "id": "abf566bf9f34f3df",
+        "id": "95cd1770a67b19d5",
         "type": "leaf",
-        "dimension": 47.11111111111111,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
+            "file": "A3-Sensitive-Data-Exposure/Prevention.md",
             "mode": "preview"
           }
         },
-        "group": "01987e0319e605fa"
+        "group": "828dc70201a598ad"
       }
     ],
     "direction": "vertical"
@@ -68,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d4708f379c8f104e",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
+                "file": "A3-Sensitive-Data-Exposure/Prevention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +100,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "A3-Sensitive-Data-Exposure/Prevention.md",
+    "A3-Sensitive-Data-Exposure/Untitled.md",
+    "A3-Sensitive-Data-Exposure/Man-In-The-Middle-Attack.md",
+    "A3-Sensitive-Data-Exposure/Cause.md",
+    "A3-Sensitive-Data-Exposure/Sensitive-Data-Exposure.md",
+    "A1-Injection/Injection.md",
+    "Untitled/Untitled.md",
     "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
     "A2-Broken-Authentication/Prevention.md",
-    "A2-Broken-Authentication/Demo.md",
-    "A2-Broken-Authentication/BrokenAuthentication+SessionManagement.md",
-    "A2-Broken-Authentication/Untitled.md",
-    "A2-Broken-Authentication/Authentication-Attacks.md",
-    "A1-Injection/Injection.md",
-    "Introduction.md",
-    "A1-Injection/Prevention.md",
-    "A1-Injection/Untitled.md"
+    "A2-Broken-Authentication/Demo.md"
   ]
 }
