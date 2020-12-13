@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A8-/Serialization-And-Deserialization.md",
+            "file": "Summary/OWASP-Into.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A8-/Serialization-And-Deserialization.md",
+                "file": "Summary/OWASP-Into.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "A8-/Untitled.md",
-    "A6-Security-Misconfiguration/Security-Misconfiguration.md",
-    "A1-Injection/SQL-Injection.md",
-    "A7-Cross-Site-Scripting/Stored-XSS.md",
-    "A2-Broken-Authentication/Prevention.md",
-    "A7-Cross-Site-Scripting/Cross-Site-Scripting.md",
-    "OWASP-Into.md",
-    "A7-Cross-Site-Scripting/Prevention.md",
-    "A7-Cross-Site-Scripting/Payloads.md",
-    "A7-Cross-Site-Scripting/IFrame-Injection.md"
+    "Summary/OWASP-Into.md",
+    "A10-Insufficient-Logging-And-Monitoring/Prevention.md",
+    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md",
+    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring-Threat-Impact.md",
+    "A10-Insufficient-Logging-And-Monitoring/Untitled.md",
+    "A9-Using-Components-With-Known-Vulnerabilities/Untitled.md",
+    "A9-Using-Components-With-Known-Vulnerabilities/Using-Components-With-Known-Vulnerabilities-Threat-Impact.md",
+    "A9-Using-Components-With-Known-Vulnerabilities/Using-Components-With-Known-Vulnerabilities.md",
+    "A8-Insecure-Deserialization/Demo.md",
+    "A8-Insecure-Deserialization/Insecure-Deserialization.md"
   ]
 }
