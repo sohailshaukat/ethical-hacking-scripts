@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/Introduction.md",
+                "file": "ProxyModule/OptionsTab.md",
                 "mode": "source"
               }
             },
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction/Introduction.md",
+                "file": "ProxyModule/OptionsTab.md",
                 "mode": "preview"
               }
             },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction/Introduction.md",
+                "file": "ProxyModule/OptionsTab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "ProxyModule/OptionsTab.md",
+    "ProxyModule/HTTP-WebSocketsHistory.md",
+    "ProxyModule/Intercept.md",
+    "ProxyModule/Components.md",
+    "ProxyModule/HTTP Request & Response Messages.md",
+    "Introduction/HTTPvsHTTPS.md",
     "Introduction/Introduction.md",
     "Documentation/Untitled.md",
     "IntruderAndComparerModules/Comparer.md",
-    "IntruderAndComparerModules/Untitled.md",
-    "IntruderAndComparerModules/Intruderv2.md",
-    "IntroduerAndComparerModules/Intruder.md",
-    "IntroduerAndComparerModules/Untitled.md",
-    "SequencerAndScannerModules/Scanner.md",
-    "SequencerAndScannerModules/Sequencer.md",
-    "SequencerAndScannerModules/Untitled.md"
+    "IntruderAndComparerModules/Untitled.md"
   ]
 }

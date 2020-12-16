@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "d11df52a1b218554",
+    "id": "6bc6407382bf2936",
     "type": "split",
     "children": [
       {
-        "id": "276e2cc89945d3b0",
+        "id": "9dd8dded20cd7be4",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A1-Injection/SSI-Injection.md",
+            "file": "realistic-2.md",
             "mode": "source"
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a3d0863d68bc84e1",
+    "id": "05cfe1fa94d5f0b8",
     "type": "split",
     "children": [
       {
-        "id": "37b85e7cfc2f18ad",
+        "id": "2bddf2e3acc96e6a",
         "type": "tabs",
         "children": [
           {
-            "id": "5a1be19deba0924f",
+            "id": "1fa69bf6b166ba46",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "3b85b5f686624340",
+            "id": "ac4f3b49732b3000",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 300
   },
   "right": {
-    "id": "d4708f379c8f104e",
+    "id": "002020edabc40067",
     "type": "split",
     "children": [
       {
-        "id": "73464645e1ebfc7e",
+        "id": "b0f4305ea0b83aa5",
         "type": "tabs",
         "children": [
           {
-            "id": "63aa64757fb3eda2",
+            "id": "27c054586ea0b302",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A1-Injection/SSI-Injection.md",
+                "file": "realistic-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "A1-Injection/SSI-Injection.md",
-    "Summary/OWASP-Into.md",
-    "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
-    "A2-Broken-Authentication/BrokenAuthentication+SessionManagement.md",
-    "A10-Insufficient-Logging-And-Monitoring/Prevention.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring-Threat-Impact.md",
-    "A10-Insufficient-Logging-And-Monitoring/Untitled.md",
-    "A9-Using-Components-With-Known-Vulnerabilities/Untitled.md",
-    "A9-Using-Components-With-Known-Vulnerabilities/Using-Components-With-Known-Vulnerabilities-Threat-Impact.md"
+    "Untitled.md",
+    "realistic-2/Untitled.md"
   ]
 }

