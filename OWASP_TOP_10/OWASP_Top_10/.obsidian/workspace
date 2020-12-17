@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "A1-Injection/SSI-Injection.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A1-Injection/SSI-Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,6 +82,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "A8-Insecure-Deserialization/Insecure-Deserialization.md",
     "A1-Injection/SSI-Injection.md",
     "Summary/OWASP-Into.md",
     "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
@@ -94,7 +91,6 @@
     "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md",
     "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring-Threat-Impact.md",
     "A10-Insufficient-Logging-And-Monitoring/Untitled.md",
-    "A9-Using-Components-With-Known-Vulnerabilities/Untitled.md",
-    "A9-Using-Components-With-Known-Vulnerabilities/Using-Components-With-Known-Vulnerabilities-Threat-Impact.md"
+    "A9-Using-Components-With-Known-Vulnerabilities/Untitled.md"
   ]
 }
