@@ -4,29 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "07d44fc89f4df76f",
+        "id": "859554e5eba84527",
         "type": "leaf",
+        "dimension": 50.67934782608695,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobileAppSecuriy/Hybrid-Applications.md",
+            "file": "Top10SecurityRisks/OWASP-Mobile-Security.md",
             "mode": "source"
           }
         },
-        "group": "c5d75809430f1138"
+        "group": "5288febd2116a539"
       },
       {
-        "id": "859554e5eba84527",
+        "id": "c7faa5a8475c2f71",
         "type": "leaf",
+        "dimension": 49.32065217391305,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobileAppSecuriy/Hybrid-Applications.md",
+            "file": "Top10SecurityRisks/OWASP-Mobile-Security.md",
             "mode": "preview"
           }
         },
-        "group": "c5d75809430f1138"
+        "group": "5288febd2116a539"
       }
     ],
     "direction": "vertical"
@@ -66,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 164
   },
   "right": {
     "id": "28314adf1195a2f6",
@@ -82,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MobileAppSecuriy/Hybrid-Applications.md",
+                "file": "Top10SecurityRisks/OWASP-Mobile-Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,12 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "MobileAppSecuriy/Hybrid-Applications.md",
-    "MobileAppSecuriy/Web-Applications.md",
-    "Pasted image 20201218021015.png",
-    "MobileAppSecuriy/Native-Applications.md",
-    "MobileAppSecuriy/Untitled.md",
-    "Mobile-Security.md",
-    "Untitled.md"
+    "Top10SecurityRisks/OWASP-Mobile-Security.md",
+    "Top10SecurityRisks/Untitled.md",
+    "Top10SecurityRisks/Insecure-Authorization.md",
+    "Top10SecurityRisks/Insecure-Authentication.md",
+    "Top10SecurityRisks/Improper-Platform-Usage.md",
+    "Top10SecurityRisks/Top10SecurityRisks.md",
+    "ThreatModelForMobilePlatforms/Untitled.md",
+    "ThreatModelForMobilePlatforms/Mobile-Malwares.md",
+    "ThreatModelForMobilePlatforms/Worm.md",
+    "ThreatModelForMobilePlatforms/Harmful-Malicious-Actions.md"
   ]
 }
