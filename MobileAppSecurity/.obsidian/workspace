@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobilePlatformSecurityModels/Mobile-Platforms.md",
+            "file": "MobilePlatformSecurityModels/Android-Architecture.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobilePlatformSecurityModels/Mobile-Platforms.md",
+            "file": "MobilePlatformSecurityModels/Android-Architecture.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MobilePlatformSecurityModels/Mobile-Platforms.md",
+                "file": "MobilePlatformSecurityModels/Android-Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "MobilePlatformSecurityModels/Android-Architecture.md",
     "MobilePlatformSecurityModels/Mobile-Platforms.md",
+    "MobilePlatformSecurityModels/Untitled.md",
     "Top10SecurityRisks/OWASP-Mobile-Security.md",
     "ThreatModelForMobilePlatforms/Threat-Model.md",
     "ThreatModelForMobilePlatforms/Attack-Vectors.md",
-    "MobilePlatformSecurityModels/Untitled.md",
     "Top10SecurityRisks/Untitled.md",
     "Top10SecurityRisks/Insecure-Authorization.md",
     "Top10SecurityRisks/Insecure-Authentication.md",
-    "Top10SecurityRisks/Improper-Platform-Usage.md",
-    "Top10SecurityRisks/Top10SecurityRisks.md"
+    "Top10SecurityRisks/Improper-Platform-Usage.md"
   ]
 }
