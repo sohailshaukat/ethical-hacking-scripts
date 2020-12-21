@@ -36,3 +36,12 @@
 # Component Architecture
 - Each component in an android app is implemented as a Java class.
 - You'll have both the Java classes that are included in the SDK and your own custom Java classes.
+- An ***activity*** is an instance of java class `android.app.Activity`. A
+- A ***button*** is an instance of java class `android.widget.Button`
+
+
+# Version Of Java
+- **Compiler uses Android-specific Java implementation**
+	- Primarily Java 4 APIs, with a small amount of Java 6
+- **Features new to Java 7 and 8 are not available**
+	- try-with-resources, switch with String values, multi-catch, lambda expressions, new date/time API
