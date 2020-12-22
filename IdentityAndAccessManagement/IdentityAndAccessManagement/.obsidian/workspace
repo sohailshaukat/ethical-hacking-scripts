@@ -1,45 +1,48 @@
 {
   "main": {
-    "id": "1f53dd202e681774",
+    "id": "7f666403ba40742c",
     "type": "split",
     "children": [
       {
-        "id": "859554e5eba84527",
+        "id": "c5a6ce4f9b6a58c8",
         "type": "leaf",
-        "dimension": 27.17391304347826,
+        "dimension": 49.790209790209786,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ThreatModelForMobilePlatforms/Attack-Vectors.md",
+            "file": "IdentityManagement/Identity-Management.md",
             "mode": "source"
           }
         },
-        "group": "5288febd2116a539"
+        "group": "6358dd7fbd420b15"
       },
       {
-        "id": "c7faa5a8475c2f71",
+        "id": "545a6b7d386cbbca",
         "type": "leaf",
-        "dimension": 72.82608695652173,
+        "dimension": 50.20979020979021,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "IdentityManagement/Identity-Management.md",
+            "mode": "preview"
+          }
         },
-        "group": "5288febd2116a539"
+        "group": "6358dd7fbd420b15"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f63f97de9244ebbd",
+    "id": "487b9dec307bbec1",
     "type": "split",
     "children": [
       {
-        "id": "b4fd4d3bfd78803f",
+        "id": "3278b716cabf0506",
         "type": "tabs",
         "children": [
           {
-            "id": "936950d1f1780294",
+            "id": "cd664a7f6791727b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +50,7 @@
             }
           },
           {
-            "id": "64c5b498c151c89d",
+            "id": "51da607b58d4077d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,23 +68,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 164
+    "width": 185
   },
   "right": {
-    "id": "28314adf1195a2f6",
+    "id": "11ff98ec6c142f02",
     "type": "split",
     "children": [
       {
-        "id": "40ceff9963cd7b5a",
+        "id": "fae5cf7d075282d3",
         "type": "tabs",
         "children": [
           {
-            "id": "4e2da78056a539b1",
+            "id": "2ed66ad298f5758d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ThreatModelForMobilePlatforms/Attack-Vectors.md",
+                "file": "IdentityManagement/Identity-Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +101,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "ThreatModelForMobilePlatforms/Attack-Vectors.md",
-    "ThreatModelForMobilePlatforms/DroidDream.md",
-    "MobileAppSecurityTesting/Vulnerability-Analysis.md",
-    "MobileAppSecurityTesting/Mobile-App-Security-Testing.md",
-    "MobileAppSecurityTesting/Untitled.md",
-    "MobileAppSecurityTesting/Mobile-Security-Testing-Process.md",
-    "MobileAppSecurityTesting/Information-Gathering-Threat-Modeling.md",
-    "MobileAppSecurityTesting/Threat-Modeling.md",
-    "MobileAppSecurityTesting/Information-Gathering.md",
-    "MobileAppSecurityTesting/Principles-of-Testing.md"
+    "IdentityManagement/Identity-Management.md",
+    "AccessManagement/Access-Management.md",
+    "AccessManagement/Untitled.md",
+    "Identity-Management/Requirements-of-IAM.md",
+    "Identity-Management/Untitled.md",
+    "Identity-Management/Identity-Management.md"
   ]
 }
