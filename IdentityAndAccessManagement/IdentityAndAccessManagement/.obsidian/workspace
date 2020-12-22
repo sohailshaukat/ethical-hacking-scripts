@@ -6,12 +6,12 @@
       {
         "id": "c5a6ce4f9b6a58c8",
         "type": "leaf",
-        "dimension": 49.790209790209786,
+        "dimension": 50.06993006993007,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IdentityManagement/Identity-Management.md",
+            "file": "AccessManagement/Access-Management.md",
             "mode": "source"
           }
         },
@@ -20,11 +20,11 @@
       {
         "id": "545a6b7d386cbbca",
         "type": "leaf",
-        "dimension": 50.20979020979021,
+        "dimension": 49.93006993006993,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IdentityManagement/Identity-Management.md",
+            "file": "AccessManagement/Access-Management.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IdentityManagement/Identity-Management.md",
+                "file": "AccessManagement/Access-Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "IdentityManagement/Identity-Management.md",
     "AccessManagement/Access-Management.md",
+    "IdentityManagement/Identity-Management.md",
     "AccessManagement/Untitled.md",
     "Identity-Management/Requirements-of-IAM.md",
     "Identity-Management/Untitled.md",
