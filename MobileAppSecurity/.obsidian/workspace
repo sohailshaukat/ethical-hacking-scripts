@@ -6,12 +6,12 @@
       {
         "id": "859554e5eba84527",
         "type": "leaf",
-        "dimension": 50.67934782608695,
+        "dimension": 48.641304347826086,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobilePlatformSecurityModels/iOS-Security-Model.md",
+            "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
             "mode": "source"
           }
         },
@@ -20,11 +20,11 @@
       {
         "id": "c7faa5a8475c2f71",
         "type": "leaf",
-        "dimension": 49.32065217391305,
+        "dimension": 51.358695652173914,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobilePlatformSecurityModels/iOS-Security-Model.md",
+            "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MobilePlatformSecurityModels/iOS-Security-Model.md",
+                "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "MobilePlatformSecurityModels/Untitled.md",
-    "MobilePlatformSecurityModels/iOS-Architecture.md",
-    "MobilePlatformSecurityModels/Mobile-Platforms.md",
-    "MobilePlatformSecurityModels/Android-Architecture.md",
-    "MobilePlatformSecurityModels/Android-Security.md",
-    "Pasted image 20201219174138.png",
-    "Top10SecurityRisks/OWASP-Mobile-Security.md",
-    "ThreatModelForMobilePlatforms/Threat-Model.md",
-    "ThreatModelForMobilePlatforms/Attack-Vectors.md",
-    "Top10SecurityRisks/Untitled.md"
+    "MobileAppSecurityTesting/Vulnerability-Analysis.md",
+    "MobileAppSecurityTesting/Mobile-App-Security-Testing.md",
+    "MobileAppSecurityTesting/Untitled.md",
+    "MobileAppSecurityTesting/Mobile-Security-Testing-Process.md",
+    "MobileAppSecurityTesting/Information-Gathering-Threat-Modeling.md",
+    "MobileAppSecurityTesting/Threat-Modeling.md",
+    "MobileAppSecurityTesting/Information-Gathering.md",
+    "MobileAppSecurityTesting/Principles-of-Testing.md",
+    "MobileAppSecuriy/Native-Applications.md",
+    "MobilePlatformSecurityModels/iOS-Security-Model.md"
   ]
 }
