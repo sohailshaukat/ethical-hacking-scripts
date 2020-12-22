@@ -6,12 +6,11 @@
       {
         "id": "859554e5eba84527",
         "type": "leaf",
-        "dimension": 48.641304347826086,
-        "active": true,
+        "dimension": 27.173913043478258,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
+            "file": "ThreatModelForMobilePlatforms/Attack-Vectors.md",
             "mode": "source"
           }
         },
@@ -20,13 +19,11 @@
       {
         "id": "c7faa5a8475c2f71",
         "type": "leaf",
-        "dimension": 51.358695652173914,
+        "dimension": 72.82608695652173,
+        "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         },
         "group": "5288febd2116a539"
       }
@@ -84,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MobileAppSecurityTesting/Vulnerability-Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +97,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "ThreatModelForMobilePlatforms/Attack-Vectors.md",
+    "ThreatModelForMobilePlatforms/DroidDream.md",
     "MobileAppSecurityTesting/Vulnerability-Analysis.md",
     "MobileAppSecurityTesting/Mobile-App-Security-Testing.md",
     "MobileAppSecurityTesting/Untitled.md",
@@ -108,8 +106,6 @@
     "MobileAppSecurityTesting/Information-Gathering-Threat-Modeling.md",
     "MobileAppSecurityTesting/Threat-Modeling.md",
     "MobileAppSecurityTesting/Information-Gathering.md",
-    "MobileAppSecurityTesting/Principles-of-Testing.md",
-    "MobileAppSecuriy/Native-Applications.md",
-    "MobilePlatformSecurityModels/iOS-Security-Model.md"
+    "MobileAppSecurityTesting/Principles-of-Testing.md"
   ]
 }
