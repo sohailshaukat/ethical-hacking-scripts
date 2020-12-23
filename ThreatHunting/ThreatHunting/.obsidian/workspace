@@ -1,33 +1,46 @@
 {
   "main": {
-    "id": "d11df52a1b218554",
+    "id": "b0601c864f862c86",
     "type": "split",
     "children": [
       {
-        "id": "276e2cc89945d3b0",
+        "id": "e77560bcdf2fac6c",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A1-Injection/Union-Based-SQLi.md",
+            "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
+            "mode": "source"
+          }
+        },
+        "group": "e8877d257e63aa34"
+      },
+      {
+        "id": "830dad554db26495",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "e8877d257e63aa34"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a3d0863d68bc84e1",
+    "id": "a7573bf99cdf1f4e",
     "type": "split",
     "children": [
       {
-        "id": "37b85e7cfc2f18ad",
+        "id": "8d1423156ea75ac5",
         "type": "tabs",
         "children": [
           {
-            "id": "5a1be19deba0924f",
+            "id": "0fb1cd57949fdbcf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +48,7 @@
             }
           },
           {
-            "id": "3b85b5f686624340",
+            "id": "1e836c6ceeeff766",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,28 +61,36 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "0b8e50dad8fbc5b7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274
+    "width": 148
   },
   "right": {
-    "id": "d4708f379c8f104e",
+    "id": "f0261b972833521a",
     "type": "split",
     "children": [
       {
-        "id": "73464645e1ebfc7e",
+        "id": "deb7c60a6a512e02",
         "type": "tabs",
         "children": [
           {
-            "id": "63aa64757fb3eda2",
+            "id": "b4a263572727eb9c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A1-Injection/Union-Based-SQLi.md",
+                "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +107,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "A1-Injection/Union-Based-SQLi.md",
-    "A1-Injection/SQL-Injection.md",
-    "A8-Insecure-Deserialization/Insecure-Deserialization.md",
-    "A1-Injection/SSI-Injection.md",
-    "Summary/OWASP-Into.md",
-    "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
-    "A2-Broken-Authentication/BrokenAuthentication+SessionManagement.md",
-    "A10-Insufficient-Logging-And-Monitoring/Prevention.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring-Threat-Impact.md"
+    "Threat-Hunting/Untitled.md",
+    "Threat-Hunting/Threat-Hunting.md"
   ]
 }
