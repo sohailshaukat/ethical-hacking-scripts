@@ -7,11 +7,10 @@
         "id": "e77560bcdf2fac6c",
         "type": "leaf",
         "dimension": 49.966055668703326,
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
+            "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
             "mode": "source"
           }
         },
@@ -21,10 +20,11 @@
         "id": "830dad554db26495",
         "type": "leaf",
         "dimension": 50.033944331296674,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
+            "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
             "mode": "preview"
           }
         },
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mdr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 148
+    "width": 365
   },
   "right": {
     "id": "f0261b972833521a",
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threat-Hunting/Threat-Hunting-Platforms.md",
+                "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,8 +109,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+    "Threat-Hunting/Hunting-As-Active-Defense.md",
+    "Threat-Hunting/Threat-Hunting-Techniques.md",
     "Threat-Hunting/Threat-Hunting-Platforms.md",
-    "Threat-Hunting/Untitled.md",
-    "Threat-Hunting/Threat-Hunting.md"
+    "Threat-Hunting/Threat-Hunting.md",
+    "Threat-Hunting/Untitled.md"
   ]
 }

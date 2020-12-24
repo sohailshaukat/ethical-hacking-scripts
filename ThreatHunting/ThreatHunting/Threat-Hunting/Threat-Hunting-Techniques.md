@@ -27,8 +27,6 @@ Two essential points to be considered while doing a **SEARCH** include:
 
 ##### Clustering
 
-![Clustering](https://ap-south-1-play-content-docs.s3.amazonaws.com/play_contents/375/1956/13268_clustering.jpeg)
-
 -   Clustering is a **`measurable method`** that focuses on isolating groups of similar information.
     
 -   Normally, done by utilizing **Machine learning**.
