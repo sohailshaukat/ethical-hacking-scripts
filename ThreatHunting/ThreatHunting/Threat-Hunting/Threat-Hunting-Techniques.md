@@ -1,3 +1,5 @@
+[[Threat-Hunting]]
+
 ##### Threat Hunting Techniques
 
 The **four** common Threat Hunting techniques include:

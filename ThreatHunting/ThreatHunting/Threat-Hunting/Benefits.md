@@ -1,3 +1,5 @@
+[[Threat-Hunting]]
+
 ##### Benefits of Threat Hunting
 
 -   Reduction in **time and cost** spent on the investment.

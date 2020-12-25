@@ -1,3 +1,6 @@
+[[Threat-Hunting]]
+[[Threat-Hunting-Techniques]]
+
 ##### Performing Threat Hunting
 
 Organizations that perform Threat Hunting has to **`focus`** mainly on the following factors.

@@ -7,10 +7,11 @@
         "id": "e77560bcdf2fac6c",
         "type": "leaf",
         "dimension": 49.966055668703326,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+            "file": "Threat-Modelling/Threat-Modelling.md",
             "mode": "source"
           }
         },
@@ -20,11 +21,10 @@
         "id": "830dad554db26495",
         "type": "leaf",
         "dimension": 50.033944331296674,
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+            "file": "Threat-Modelling/Threat-Modelling.md",
             "mode": "preview"
           }
         },
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+                "file": "Threat-Modelling/Threat-Modelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,11 +109,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+    "Threat-Modelling/Threat-Modelling.md",
+    "Threat-Modelling/Untitled.md",
+    "Threat-Hunting/Benefits.md",
+    "Threat-Hunting/Conducting-Threat-Hunting.md",
     "Threat-Hunting/Hunting-As-Active-Defense.md",
-    "Threat-Hunting/Threat-Hunting-Techniques.md",
-    "Threat-Hunting/Threat-Hunting-Platforms.md",
+    "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+    "Threat-Hunting/Skills-Required.md",
     "Threat-Hunting/Threat-Hunting.md",
-    "Threat-Hunting/Untitled.md"
+    "Threat-Hunting/Threat-Hunting-Techniques.md",
+    "Threat-Hunting/Threat-Hunting-Platforms.md"
   ]
 }

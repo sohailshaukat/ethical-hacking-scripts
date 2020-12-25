@@ -1,3 +1,6 @@
+[[Threat-Hunting]]
+[[Threat-Hunting-Techniques]]
+
 ##### Skills Required
 
 Threat Hunting is basically a **`human-based activity`**. Hence **skilled experts** are very important to perform effective Threat Hunting.

@@ -1,3 +1,5 @@
+[[Threat-Hunting]]
+
 ##### Hunting as Active Defense
 
 -   Industry standard security operations teams using passive monitoring and detection are no longer sufficient to protect important assets. The best way to deal with this is Active Defense.

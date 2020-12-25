@@ -1,3 +1,6 @@
+[[Threat-Hunting]]
+[[Hunting-As-Active-Defense]]
+
 ##### Hunting Maturity Model (HMM)
 
 Developed by David Bianco, Sqrrl’s security technologist. **Hunting Maturity Model (HMM) determines the Hunting ability of an organization**.

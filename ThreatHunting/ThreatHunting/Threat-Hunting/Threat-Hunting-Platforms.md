@@ -1,3 +1,5 @@
+[[Threat-Hunting]]
+
 ##### Threat Hunting Platforms
 ![[13271_hunting_tools_1.jpeg]]
 **`Threat Hunting platforms`** are used to gather cyber threat intelligence and generate threat analysis reports.
