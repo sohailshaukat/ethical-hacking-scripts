@@ -4,31 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "e77560bcdf2fac6c",
-        "type": "leaf",
-        "dimension": 49.966055668703326,
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Threat-Modelling/Threat-Modelling.md",
-            "mode": "source"
+        "id": "f823e7567d3efc8b",
+        "type": "split",
+        "children": [
+          {
+            "id": "830dad554db26495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
+                "mode": "preview"
+              }
+            },
+            "group": "e8877d257e63aa34"
+          },
+          {
+            "id": "e77560bcdf2fac6c",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
+                "mode": "source"
+              }
+            },
+            "group": "e8877d257e63aa34"
           }
-        },
-        "group": "e8877d257e63aa34"
-      },
-      {
-        "id": "830dad554db26495",
-        "type": "leaf",
-        "dimension": 50.033944331296674,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Threat-Modelling/Threat-Modelling.md",
-            "mode": "preview"
-          }
-        },
-        "group": "e8877d257e63aa34"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -76,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 170
   },
   "right": {
     "id": "f0261b972833521a",
@@ -92,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threat-Modelling/Threat-Modelling.md",
+                "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +114,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Threat-Modelling/Threat-Modelling.md",
     "Threat-Modelling/Untitled.md",
+    "Threat-Modelling/Generic-Steps.md",
+    "Threat-Modelling/Threat-Modelling.md",
     "Threat-Hunting/Benefits.md",
     "Threat-Hunting/Conducting-Threat-Hunting.md",
     "Threat-Hunting/Hunting-As-Active-Defense.md",
     "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
     "Threat-Hunting/Skills-Required.md",
     "Threat-Hunting/Threat-Hunting.md",
-    "Threat-Hunting/Threat-Hunting-Techniques.md",
-    "Threat-Hunting/Threat-Hunting-Platforms.md"
+    "Threat-Hunting/Threat-Hunting-Techniques.md"
   ]
 }
