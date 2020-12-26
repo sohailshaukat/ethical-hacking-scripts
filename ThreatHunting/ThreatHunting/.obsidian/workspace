@@ -10,6 +10,7 @@
           {
             "id": "830dad554db26495",
             "type": "leaf",
+            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -22,7 +23,6 @@
           {
             "id": "e77560bcdf2fac6c",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -114,6 +114,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Threat-Modelling/Threat-Modeling-Methodologies.md",
     "Threat-Modelling/Untitled.md",
     "Threat-Modelling/Generic-Steps.md",
     "Threat-Modelling/Threat-Modelling.md",
@@ -122,7 +123,6 @@
     "Threat-Hunting/Hunting-As-Active-Defense.md",
     "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
     "Threat-Hunting/Skills-Required.md",
-    "Threat-Hunting/Threat-Hunting.md",
-    "Threat-Hunting/Threat-Hunting-Techniques.md"
+    "Threat-Hunting/Threat-Hunting.md"
   ]
 }
