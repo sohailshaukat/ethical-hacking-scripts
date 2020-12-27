@@ -12,11 +12,12 @@ def sum_triplet(text):
             triplet.append(stream.pop())
             i -= 1
         triplets.append(sum(map(int,triplet)))
-    return(triplets)
+    return(triplets[::-1])
 
 
-sum_triplet_result = sum_triplet(".26.58.13.28.22.48")
+sum_triplet_result = sum_triplet(".115.121.56.126.113.54")
+
 
 print("sum: ", sum_triplet_result)
 
-print("".join(list(map(chr, sum_triplet_result))[::-1]))
+print("".join(list(map(chr, sum_triplet_result))))
