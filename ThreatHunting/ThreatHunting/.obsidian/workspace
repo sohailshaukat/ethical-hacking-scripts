@@ -4,36 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "f823e7567d3efc8b",
-        "type": "split",
-        "children": [
-          {
-            "id": "830dad554db26495",
-            "type": "leaf",
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
-                "mode": "preview"
-              }
-            },
-            "group": "e8877d257e63aa34"
-          },
-          {
-            "id": "e77560bcdf2fac6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
-                "mode": "source"
-              }
-            },
-            "group": "e8877d257e63aa34"
+        "id": "e77560bcdf2fac6c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "e8877d257e63aa34"
+      },
+      {
+        "id": "830dad554db26495",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Threat-Modelling/Threat-Modeling-Methodologies.md",
+            "mode": "preview"
+          }
+        },
+        "group": "e8877d257e63aa34"
       }
     ],
     "direction": "vertical"
@@ -60,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mdr",
+                "query": "infr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +70,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,8 +109,8 @@
   },
   "lastOpenFiles": [
     "Threat-Modelling/Threat-Modeling-Methodologies.md",
-    "Threat-Modelling/Untitled.md",
     "Threat-Modelling/Generic-Steps.md",
+    "Threat-Modelling/Untitled.md",
     "Threat-Modelling/Threat-Modelling.md",
     "Threat-Hunting/Benefits.md",
     "Threat-Hunting/Conducting-Threat-Hunting.md",

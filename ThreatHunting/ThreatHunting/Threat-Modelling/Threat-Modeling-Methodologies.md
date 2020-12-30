@@ -57,3 +57,54 @@ The Trike threat modeling methodology uses DFDs to illustrate the flow of data a
 -   Mitigating controls are assigned to address the threats and the risks associated.
     
 -   Finally, a risk model is developed from the completed threat model based on assets, roles, actions, and threat exposure.
+
+##### VAST
+
+**VAST**: **V**isual, **A**gile, and **S**imple **T**hreat modeling.
+
+The underlying principle of this methodology emphasizes the necessity of scaling the threat modeling process across the infrastructure and entire Software Development Life Cycle(SDLC) and integrating it consistently into an Agile software development methodology.
+
+A distinguishing feature of the VAST threat modeling methodology is its practical approach.
+
+The security concerns faced by the development team might be different from those of the infrastructure team. To efficiently handle the difference, VAST calls for two types of threat models:
+
+-   **Application Threat Models**
+-   **Operational Threat Models**
+
+##### VAST: Threat Models
+
+-   **Application Threat Models** are intended for development teams and are solely intended for the application under consideration. The primary purpose is to:
+    
+    -   Identify the threats that the application may be vulnerable to.
+    -   To enlighten the developers on mitigation strategies to address the threats starting with the creation of Process Flow Diagrams.
+-   **Operational Threat Models** allow organizations to visualize the infrastructure risk profile
+    
+    -   Enhances the understanding of the full attack surface for key stakeholders.
+    -   Helps organizational leaders equip themselves plan and prioritize infrastructure risk mitigation strategies.
+
+[Click here](https://threatmodeler.com/2016/09/06/operational-application-threat-modeling/) to gain a better understanding of the difference between Application Threat Modeling and Operational Threat Modeling.
+
+##### OCTAVE
+
+**OCTAVE:** **O**perationally **C**ritical **T**hreat, **A**sset, and **V**ulnerability **E**valuation methodology
+
+OCTAVE threat modeling methodology focuses on assessing (non-technical) organizational risks that may lead from breached data assets.
+
+Utilizing this threat modeling methodology, information assets of an organization are recognized and the datasets they include get attributes based on the type of data stored.
+
+OCTAVE threat modeling offers organizational risk awareness, and a robust, asset-centric view, the documentation can turn huge.
+
+This method is most helpful when developing a risk-aware corporate culture. It is customizable to the risk environment and specific security objectives of an organization.
+
+##### Octave Process: An overview
+
+![[19460_Octave 1.jpg]]
+
+[Click here](http://www.itgovernanceusa.com/files/Octave.pdf) to gain a comprehensive understanding of OCTAVE.
+
+##### Choosing the Right Methodology
+![[19461_Methodologies_Comparison 1.jpg]]
+
+From a theoretical perspective, each methodology offers security teams and organizations the means to recognize potential threats and may seem indistinguishable.
+
+However, on a practical level, threat modeling methodologies vary in quality, consistency, and value received for the resources invested
