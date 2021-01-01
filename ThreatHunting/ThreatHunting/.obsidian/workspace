@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Modelling/Threat-Modelling.md",
+            "file": "Threat-Modelling/Threat-Modeling.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Threat-Modelling/Threat-Modelling.md",
+            "file": "Threat-Modelling/Threat-Modeling.md",
             "mode": "preview"
           }
         },
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mdr",
+                "query": "stride",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Threat-Modelling/Threat-Modelling.md",
+                "file": "Threat-Modelling/Threat-Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +109,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Threat-Modelling/Threat-Modelling.md",
-    "Threat-Modelling/Untitled.md",
-    "Threat-Hunting/Benefits.md",
-    "Threat-Hunting/Conducting-Threat-Hunting.md",
-    "Threat-Hunting/Hunting-As-Active-Defense.md",
-    "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
-    "Threat-Hunting/Skills-Required.md",
-    "Threat-Hunting/Threat-Hunting.md",
+    "Threat-Modelling/Threat-Modeling.md",
     "Threat-Hunting/Threat-Hunting-Techniques.md",
-    "Threat-Hunting/Threat-Hunting-Platforms.md"
+    "Threat-Hunting/Hunting-Maturity-Model-HMM.md",
+    "Threat-Hunting/Threat-Hunting-Platforms.md",
+    "Threat-Hunting/Skills-Required.md",
+    "Threat-Hunting/Hunting-As-Active-Defense.md",
+    "Threat-Modelling/Threat-Modeling-Tools.md",
+    "Threat-Modelling/Threat-Model-Diagrams.md",
+    "Threat-Hunting/Threat-Hunting.md",
+    "Threat-Modelling/Threat-Modelling.md"
   ]
 }

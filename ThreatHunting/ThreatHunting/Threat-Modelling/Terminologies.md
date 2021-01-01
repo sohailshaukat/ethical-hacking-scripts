@@ -1,4 +1,4 @@
-[[Threat-Modelling]]
+[[Threat-Modeling]]
 
 # Terminologies
 ![[19430_Basic_terms.jpeg]]
