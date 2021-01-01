@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SymmetricEncryption/SubstitutionCipher.md",
+            "file": "AsymmetricEncryption/AsymmetricEncryption.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SymmetricEncryption/SubstitutionCipher.md",
+            "file": "AsymmetricEncryption/AsymmetricEncryption.md",
             "mode": "preview"
           }
         },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "http",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SymmetricEncryption/SubstitutionCipher.md",
+                "file": "AsymmetricEncryption/AsymmetricEncryption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "SymmetricEncryption/SubstitutionCipher.md",
-    "Summary/Conclusion.md",
-    "Summary/AdditionalFactors.md",
-    "Summary/SavingPassword.md",
+    "AsymmetricEncryption/AsymmetricEncryption.md",
+    "AsymmetricEncryption/Difiie-HellmanAlgorithm.md",
+    "AsymmetricEncryption/RSAAlgorithm.md",
+    "MoreOnBlockCipher/BlockCipherModesOfOperation.md",
+    "Summary/DigitalSignature.md",
+    "Summary/Cryptography.md",
     "Summary/PracticalIssues.md",
     "Summary/RandomNumbers.md",
-    "Summary/Untitled.md",
-    "Summary/SSL&TLS.md",
-    "Summary/AsymmetricEncryption.md",
-    "Summary/SymmetricEncryption.md"
+    "Summary/Conclusion.md",
+    "Summary/AsymmetricEncryption.md"
   ]
 }

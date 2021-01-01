@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "realistic-4.md",
+            "file": "realistic-7.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "realistic-4.md",
+            "file": "realistic-7.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "realistic-4.md",
+                "file": "realistic-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +99,13 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "realistic-4.md",
+    "realistic-7.md",
+    "Attacks/realistic-7.md",
+    "Attacks/Untitled.md",
+    "Attacks/realistic-6.md",
+    "realistic-5.md",
     "Untitled.md",
+    "realistic-4.md",
     "realistic-3.md",
     "realistic-2.md",
     "realistic-2/Untitled.md"
