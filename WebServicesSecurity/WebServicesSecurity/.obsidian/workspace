@@ -1,33 +1,46 @@
 {
   "main": {
-    "id": "1f53dd202e681774",
+    "id": "e5ff67c141010505",
     "type": "split",
     "children": [
       {
-        "id": "859554e5eba84527",
+        "id": "0e23f491de3245bf",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ThreatModelForMobilePlatforms/Attack-Vectors.md",
+            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+            "mode": "source"
+          }
+        },
+        "group": "c78ddb80400c228b"
+      },
+      {
+        "id": "ab0a411d2161508e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "c78ddb80400c228b"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f63f97de9244ebbd",
+    "id": "eeb931171a9b63d4",
     "type": "split",
     "children": [
       {
-        "id": "b4fd4d3bfd78803f",
+        "id": "a8ccdbd444472a95",
         "type": "tabs",
         "children": [
           {
-            "id": "936950d1f1780294",
+            "id": "f7c4d65b8450281a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +48,7 @@
             }
           },
           {
-            "id": "64c5b498c151c89d",
+            "id": "250af3567641ebf9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -53,23 +66,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 164
+    "width": 300
   },
   "right": {
-    "id": "28314adf1195a2f6",
+    "id": "549b0d8f2adf62c2",
     "type": "split",
     "children": [
       {
-        "id": "40ceff9963cd7b5a",
+        "id": "74682c1311e701cf",
         "type": "tabs",
         "children": [
           {
-            "id": "4e2da78056a539b1",
+            "id": "0d3d3bc9e297711d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ThreatModelForMobilePlatforms/Attack-Vectors.md",
+                "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +99,12 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "ThreatModelForMobilePlatforms/Attack-Vectors.md",
-    "ThreatModelForMobilePlatforms/DroidDream.md",
-    "MobileAppSecurityTesting/Vulnerability-Analysis.md",
-    "MobileAppSecurityTesting/Mobile-App-Security-Testing.md",
-    "MobileAppSecurityTesting/Untitled.md",
-    "MobileAppSecurityTesting/Mobile-Security-Testing-Process.md",
-    "MobileAppSecurityTesting/Information-Gathering-Threat-Modeling.md",
-    "MobileAppSecurityTesting/Threat-Modeling.md",
-    "MobileAppSecurityTesting/Information-Gathering.md",
-    "MobileAppSecurityTesting/Principles-of-Testing.md"
+    "WebServiceSecurity/Securing-The-Communication-Layer.md",
+    "WebServiceSecurity/Untitled.md",
+    "WebServiceSecurity/Web-Service-Security.md",
+    "WebServiceSecurity/Web-Services.md",
+    "22113_Web_Service_Roles.jpeg",
+    "22113_Web_Service_Roles 1.jpeg",
+    "Web-Service-Security/Untitled.md"
   ]
 }
