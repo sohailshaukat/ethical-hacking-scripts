@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+            "file": "WebServiceSecurity/Message-Level-Security.md",
             "mode": "source"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+            "file": "WebServiceSecurity/Message-Level-Security.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+                "file": "WebServiceSecurity/Message-Level-Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +99,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "WebServiceSecurity/Securing-The-Communication-Layer.md",
     "WebServiceSecurity/Untitled.md",
+    "WebServiceSecurity/Securing-The-Communication-Layer.md",
     "WebServiceSecurity/Web-Service-Security.md",
     "WebServiceSecurity/Web-Services.md",
     "22113_Web_Service_Roles.jpeg",
