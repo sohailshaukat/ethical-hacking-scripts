@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+            "file": "WebServiceSecurity/Message-Level-Security.md",
             "mode": "source"
           }
         },
@@ -22,8 +22,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
-            "mode": "preview"
+            "file": "WebServiceSecurity/Message-Level-Security.md",
+            "mode": "source"
           }
         },
         "group": "c78ddb80400c228b"
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "authentication mechanism",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -82,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebServiceSecurity/Securing-The-Communication-Layer.md",
+                "file": "WebServiceSecurity/Message-Level-Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,12 +100,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "WebServiceSecurity/Message-Level-Security.md",
+    "WebServiceSecurity/Challenges-Threats.md",
     "WebServiceSecurity/Securing-The-Communication-Layer.md",
-    "WebServiceSecurity/Untitled.md",
     "WebServiceSecurity/Web-Service-Security.md",
     "WebServiceSecurity/Web-Services.md",
-    "22113_Web_Service_Roles.jpeg",
-    "22113_Web_Service_Roles 1.jpeg",
-    "Web-Service-Security/Untitled.md"
+    "22163_WS_Secure_Conversation.jpeg",
+    "22160_Ws_Trust.jpeg",
+    "22126_WS_Security_Encryption.jpeg",
+    "22124_Security_Headers.jpeg",
+    "WebServiceSecurity/Data-Security.md"
   ]
 }
