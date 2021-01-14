@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "d3c215f651096402",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7948218169545fd",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Intro.md",
+            "mode": "source"
+          }
+        },
+        "group": "1055cd228621a768"
+      },
+      {
+        "id": "9aaf95741adb3c9e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Intro.md",
+            "mode": "preview"
+          }
+        },
+        "group": "1055cd228621a768"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "845c5a14ac969202",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e3d30e0df6b1fe9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47b204674059607e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5baa72247e7e1899",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7539ce0d51fb1603",
+    "type": "split",
+    "children": [
+      {
+        "id": "a44bdc6b403af2a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4abc8317eb96ca84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Intro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Intro.md",
+    "Untitled.md"
+  ]
+}
