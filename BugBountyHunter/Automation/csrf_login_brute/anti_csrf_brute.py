@@ -36,7 +36,7 @@ def deserializer(serialized):
     return deserialized
 
 
-def send_request(url, params, req_username="", req_password="", req_cookies=None, req_csrf="", method="get"):
+def send_request(url, params, req_username="", req_password="", req_cookies=None, req_csrf=""):
     """
     This sends the request
     :param url: URL of the application / page
@@ -102,7 +102,7 @@ def gameover(final_username, final_password):
 
 arguments = get_arguments()
 
-if arguments.method.lower() in ("get","post"):
+if arguments.method and arguments.method.lower() in ("get","post"):
     METHOD = arguments.method
 elif arguments.method:
     print("[-] Please enter valid method. GET or POST.")    
