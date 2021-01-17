@@ -20,6 +20,7 @@ def get_arguments():
     parser.add_argument("-P", "--passwordlist", dest="passwordlist", help="Password: -p password")
     parser.add_argument("-C", "--csrfxpath", dest="csrfxpath", help="CSRF-Xpath: //input[@name='user_token']/@value")
     parser.add_argument("-F", "--failedtext", dest="failedtext", help="Failed Login Text: Incorrect password")
+    parser.add_argument("-m", "--method", dest="method", help="Method: -m get OR -m POST")
     options = parser.parse_args()
     return options
 
@@ -59,10 +60,10 @@ def send_request(url, params, req_username="", req_password="", req_cookies=None
     print(f"[*]URL : {url}")
     print("[*]Cookies", req_cookies)
     print("[*]Params", params)
-    if method.lower() == "get":
+    if METHOD.lower() == "get":
         return requests.get(url, cookies=req_cookies, params=params)
     else:
-        return requests.post(url, cookies=req_cookies, params=params)
+        return requests.post(url, cookies=req_cookies, data=params)
 
 
 def get_csrf(latest_response, csrfxpath):
@@ -101,6 +102,15 @@ def gameover(final_username, final_password):
 
 arguments = get_arguments()
 
+if arguments.method.lower() in ("get","post"):
+    METHOD = arguments.method
+elif arguments.method:
+    print("[-] Please enter valid method. GET or POST.")    
+    sys.exit()
+else:
+    METHOD = "get"
+
+
 if arguments.url:
     URL = arguments.url
 else:
@@ -114,6 +124,9 @@ cookies = deserializer(arguments.cookies) if arguments.cookies else {}
 
 arguments.param = "" if not arguments.param else arguments.param
 
+if not arguments.failedtext:
+    print("[-] Please provide failed attempt / unsuccessful login text ")
+    sys.exit()
 
 if arguments.login:
     username = arguments.login

