@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF-Injection/Links.md",
+            "file": "CommandInjection/Tools.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF-Injection/Links.md",
+            "file": "CommandInjection/Tools.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSRF-Injection/Links.md",
+                "file": "CommandInjection/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "CommandInjection/Tools.md",
+    "CSRF-Injection/Links.md",
     "CSRF-Injection/Untitled.md",
     "CommandInjection/Links.md",
     "CommandInjection/Untitled.md",
@@ -108,8 +110,6 @@
     "BruteForce/TOOLS.md",
     "CommandExecution/Untitled.md",
     "BugBountyHunter-Methodology.md",
-    "BruteForce/Endpoint-Protection-Symantec.md",
-    "BruteForce/tools.md",
-    "BruteForce/Untitled.md"
+    "BruteForce/Endpoint-Protection-Symantec.md"
   ]
 }
