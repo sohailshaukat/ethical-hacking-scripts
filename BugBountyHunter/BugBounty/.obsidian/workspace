@@ -6,11 +6,12 @@
       {
         "id": "798180f0b54fb308",
         "type": "leaf",
-        "dimension": 53.97727272727273,
+        "dimension": 70.11070110701108,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BruteForce/TOOLS.md",
+            "file": "CSRF-Injection/Links.md",
             "mode": "source"
           }
         },
@@ -19,12 +20,11 @@
       {
         "id": "10c8cc59c285d07f",
         "type": "leaf",
-        "dimension": 46.02272727272727,
-        "active": true,
+        "dimension": 29.88929889298893,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BruteForce/TOOLS.md",
+            "file": "CSRF-Injection/Links.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BruteForce/TOOLS.md",
+                "file": "CSRF-Injection/Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "BruteForce/TOOLS.md",
-    "CommandInjection/Tools.md",
     "CSRF-Injection/Links.md",
     "CSRF-Injection/Untitled.md",
+    "Resources.md",
+    "Untitled.md",
+    "BruteForce/TOOLS.md",
+    "CommandInjection/Tools.md",
     "CommandInjection/Links.md",
     "CommandInjection/Untitled.md",
     "CommandInjection/Command-Injection.md",
-    "CommandExecution/Untitled.md",
-    "BugBountyHunter-Methodology.md",
-    "BruteForce/Endpoint-Protection-Symantec.md"
+    "CommandExecution/Untitled.md"
   ]
 }
