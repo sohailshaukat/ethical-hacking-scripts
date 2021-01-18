@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF-Injection/Links.md",
+            "file": "CSRF-Injection/CSRF.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF-Injection/Links.md",
+            "file": "CSRF-Injection/CSRF.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSRF-Injection/Links.md",
+                "file": "CSRF-Injection/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,8 +101,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "CSRF-Injection/Links.md",
     "CSRF-Injection/Untitled.md",
+    "CSRF-Injection/Links.md",
     "Resources.md",
     "Untitled.md",
     "BruteForce/TOOLS.md",
