@@ -6,12 +6,11 @@
       {
         "id": "798180f0b54fb308",
         "type": "leaf",
-        "dimension": 70.11070110701107,
-        "active": true,
+        "dimension": 51.964512040557665,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF/CSRF-FAQ.md",
+            "file": "CSRF/Example.md",
             "mode": "source"
           }
         },
@@ -20,12 +19,13 @@
       {
         "id": "10c8cc59c285d07f",
         "type": "leaf",
-        "dimension": 29.889298892988922,
+        "dimension": 48.03548795944233,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF/CSRF-FAQ.md",
-            "mode": "preview"
+            "file": "CSRF/Example.md",
+            "mode": "source"
           }
         },
         "group": "87ae0a8f1e253016"
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSRF/CSRF-FAQ.md",
+                "file": "CSRF/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "CSRF/CSRF-FAQ.md",
-    "CSRF/CSRF.md",
+    "CSRF/Example.md",
     "CSRF/Untitled.md",
+    "CSRF/CSRF.md",
+    "CSRF/Reviewing-Code-For-CSRF.md",
+    "CSRF/CSRF-FAQ.md",
     "CSRF-Injection/CSRF.md",
     "CSRF-Injection/Untitled.md",
     "CSRF-Injection/Links.md",
     "Resources.md",
-    "Untitled.md",
-    "BruteForce/TOOLS.md",
-    "CommandInjection/Tools.md"
+    "Untitled.md"
   ]
 }

