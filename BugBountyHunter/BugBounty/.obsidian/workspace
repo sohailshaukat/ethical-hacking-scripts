@@ -7,6 +7,7 @@
         "id": "798180f0b54fb308",
         "type": "leaf",
         "dimension": 51.964512040557665,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,12 +21,11 @@
         "id": "10c8cc59c285d07f",
         "type": "leaf",
         "dimension": 48.03548795944233,
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "CSRF/Example.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "group": "87ae0a8f1e253016"
