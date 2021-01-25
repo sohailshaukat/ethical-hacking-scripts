@@ -7,11 +7,10 @@
         "id": "798180f0b54fb308",
         "type": "leaf",
         "dimension": 51.964512040557665,
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "File-Inclusion/Payloads.md",
+            "file": "XSS-DOM/OWASP.md",
             "mode": "source"
           }
         },
@@ -21,10 +20,11 @@
         "id": "10c8cc59c285d07f",
         "type": "leaf",
         "dimension": 48.03548795944233,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "File-Inclusion/Payloads.md",
+            "file": "XSS-DOM/OWASP.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File-Inclusion/Payloads.md",
+                "file": "XSS-DOM/OWASP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +101,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "XSS-DOM/OWASP.md",
+    "XSS-DOM/Untitled.md",
     "File-Inclusion/Payloads.md",
     "File-Inclusion/Untitled.md",
     "File-Inclusion/Testing-RFI.md",
@@ -108,8 +110,6 @@
     "CSRF/Example.md",
     "CSRF/Untitled.md",
     "CSRF/CSRF.md",
-    "CSRF/Reviewing-Code-For-CSRF.md",
-    "CSRF/CSRF-FAQ.md",
-    "CSRF-Injection/CSRF.md"
+    "CSRF/Reviewing-Code-For-CSRF.md"
   ]
 }
