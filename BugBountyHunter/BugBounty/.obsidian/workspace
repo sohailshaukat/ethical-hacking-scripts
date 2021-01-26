@@ -7,10 +7,11 @@
         "id": "798180f0b54fb308",
         "type": "leaf",
         "dimension": 51.964512040557665,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-DOM/OWASP.md",
+            "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
             "mode": "source"
           }
         },
@@ -20,11 +21,10 @@
         "id": "10c8cc59c285d07f",
         "type": "leaf",
         "dimension": 48.03548795944233,
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-DOM/OWASP.md",
+            "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS-DOM/OWASP.md",
+                "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
+    "XSS-Reflected/Untitled.md",
+    "XSS-Reflected/Links.md",
+    "Untitled.md",
     "XSS-DOM/OWASP.md",
     "XSS-DOM/Untitled.md",
     "File-Inclusion/Payloads.md",
     "File-Inclusion/Untitled.md",
     "File-Inclusion/Testing-RFI.md",
-    "File-Inclusion/Testing-Methods.md",
-    "CSRF/Example.md",
-    "CSRF/Untitled.md",
-    "CSRF/CSRF.md",
-    "CSRF/Reviewing-Code-For-CSRF.md"
+    "File-Inclusion/Testing-Methods.md"
   ]
 }
