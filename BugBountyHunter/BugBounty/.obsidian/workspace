@@ -6,12 +6,11 @@
       {
         "id": "798180f0b54fb308",
         "type": "leaf",
-        "dimension": 51.964512040557665,
-        "active": true,
+        "dimension": 52.09125475285171,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
+            "file": "XSS-Reflected/XSS-Payloads.md",
             "mode": "source"
           }
         },
@@ -20,11 +19,12 @@
       {
         "id": "10c8cc59c285d07f",
         "type": "leaf",
-        "dimension": 48.03548795944233,
+        "dimension": 47.90874524714829,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
+            "file": "XSS-Reflected/XSS-Payloads.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
+                "file": "XSS-Reflected/XSS-Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
+    "XSS-Reflected/XSS-Payloads.md",
     "XSS-Reflected/Untitled.md",
+    "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
     "XSS-Reflected/Links.md",
     "Untitled.md",
     "XSS-DOM/OWASP.md",
     "XSS-DOM/Untitled.md",
     "File-Inclusion/Payloads.md",
     "File-Inclusion/Untitled.md",
-    "File-Inclusion/Testing-RFI.md",
-    "File-Inclusion/Testing-Methods.md"
+    "File-Inclusion/Testing-RFI.md"
   ]
 }
