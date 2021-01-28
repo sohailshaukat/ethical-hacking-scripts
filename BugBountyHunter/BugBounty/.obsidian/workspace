@@ -6,7 +6,7 @@
       {
         "id": "798180f0b54fb308",
         "type": "leaf",
-        "dimension": 52.09125475285171,
+        "dimension": 40.93023255813954,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "10c8cc59c285d07f",
         "type": "leaf",
-        "dimension": 47.90874524714829,
+        "dimension": 59.06976744186046,
         "active": true,
         "state": {
           "type": "markdown",
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 197
   },
   "right": {
     "id": "c4ded7ceba24d1f3",
@@ -102,14 +102,14 @@
   },
   "lastOpenFiles": [
     "XSS-Reflected/XSS-Payloads.md",
+    "BugBountyHunter-Methodology.md",
+    "DVWA-Status.md",
+    "Untitled.md",
     "XSS-Reflected/Untitled.md",
     "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
     "XSS-Reflected/Links.md",
-    "Untitled.md",
     "XSS-DOM/OWASP.md",
     "XSS-DOM/Untitled.md",
-    "File-Inclusion/Payloads.md",
-    "File-Inclusion/Untitled.md",
-    "File-Inclusion/Testing-RFI.md"
+    "File-Inclusion/Payloads.md"
   ]
 }
