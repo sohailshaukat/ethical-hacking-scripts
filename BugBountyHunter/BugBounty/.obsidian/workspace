@@ -6,11 +6,12 @@
       {
         "id": "798180f0b54fb308",
         "type": "leaf",
-        "dimension": 40.93023255813954,
+        "dimension": 61.03427540589297,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-Reflected/XSS-Payloads.md",
+            "file": "File-Inclusion/WebShell.md",
             "mode": "source"
           }
         },
@@ -19,12 +20,11 @@
       {
         "id": "10c8cc59c285d07f",
         "type": "leaf",
-        "dimension": 59.06976744186046,
-        "active": true,
+        "dimension": 38.96572459410704,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "XSS-Reflected/XSS-Payloads.md",
+            "file": "File-Inclusion/WebShell.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "XSS-Reflected/XSS-Payloads.md",
+                "file": "File-Inclusion/WebShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "File-Inclusion/WebShell.md",
+    "File-Inclusion/Untitled.md",
+    "File-Inclusion/Payloads.md",
+    "File-Inclusion/Leveraging-LFI-RCE.md",
+    "File-Inclusion/File-Inclusion.md",
+    "DVWA-Status.md",
     "XSS-Reflected/XSS-Payloads.md",
     "BugBountyHunter-Methodology.md",
-    "DVWA-Status.md",
     "Untitled.md",
-    "XSS-Reflected/Untitled.md",
-    "XSS-Reflected/Filter-Evasion-Cheatsheet.md",
-    "XSS-Reflected/Links.md",
-    "XSS-DOM/OWASP.md",
-    "XSS-DOM/Untitled.md",
-    "File-Inclusion/Payloads.md"
+    "XSS-Reflected/Untitled.md"
   ]
 }

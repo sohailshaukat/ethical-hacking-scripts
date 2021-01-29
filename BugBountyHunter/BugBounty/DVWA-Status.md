@@ -11,7 +11,7 @@ SQL Injection (Blind) |
 Weak Session IDs |
 XSS (DOM) | Done | Done | Done
 XSS (Reflected) | Done | Done | Done
-XSS (Stored) |
+XSS (Stored) | Done | Done | Done
 CSP Bypass |
 Javascript | 
 
