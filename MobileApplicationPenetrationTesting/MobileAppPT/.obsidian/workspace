@@ -1,0 +1,107 @@
+{
+  "main": {
+    "id": "d7128dd4fd006304",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf312b1e8a0d397f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SeminarNotes/Tools.md",
+            "mode": "source"
+          }
+        },
+        "group": "cc376c347bb708d4"
+      },
+      {
+        "id": "ac96f43332a2cd2d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SeminarNotes/Tools.md",
+            "mode": "preview"
+          }
+        },
+        "group": "cc376c347bb708d4"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6dfea10bf403d2f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "570b6e7c58041129",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1670865fa34b8f48",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e43baeb149be1e34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 169
+  },
+  "right": {
+    "id": "d085bb8de6693962",
+    "type": "split",
+    "children": [
+      {
+        "id": "62ad0056edff34e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "503550207c7c3c55",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SeminarNotes/Tools.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "SeminarNotes/Tools.md",
+    "SeminarNotes/Untitled.md",
+    "SeminarNotes.md",
+    "Untitled.md"
+  ]
+}
