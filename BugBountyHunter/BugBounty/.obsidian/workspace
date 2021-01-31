@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DVWA-Status.md",
+            "file": "File-Upload/OWASP.md",
             "mode": "source"
           }
         },
@@ -24,8 +24,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DVWA-Status.md",
-            "mode": "preview"
+            "file": "File-Upload/OWASP.md",
+            "mode": "source"
           }
         },
         "group": "87ae0a8f1e253016"
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DVWA-Status.md",
+                "file": "File-Upload/OWASP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "File-Upload/OWASP.md",
+    "File-Upload/Untitled.md",
+    "File-Upload/Links.md",
     "DVWA-Status.md",
     "CSRF/Links.md",
     "CSRF/Testing.md",
     "CSRF/Example.md",
     "CSRF/CSRF.md",
     "XSS-DOM/LINKS.md",
-    "XSS-DOM/DOM-XSS.md",
-    "File-Inclusion/Payloads.md",
-    "File-Inclusion/File-Inclusion.md",
-    "File-Inclusion/Leveraging-LFI-RCE.md"
+    "XSS-DOM/DOM-XSS.md"
   ]
 }
