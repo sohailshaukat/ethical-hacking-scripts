@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF/Example.md",
+            "file": "DVWA-Status.md",
             "mode": "source"
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CSRF/Example.md",
+            "file": "DVWA-Status.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSRF/Example.md",
+                "file": "DVWA-Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "DVWA-Status.md",
+    "CSRF/Links.md",
+    "CSRF/Testing.md",
     "CSRF/Example.md",
     "CSRF/CSRF.md",
+    "XSS-DOM/LINKS.md",
+    "XSS-DOM/DOM-XSS.md",
     "File-Inclusion/Payloads.md",
-    "File-Inclusion/Leveraging-LFI-RCE.md",
     "File-Inclusion/File-Inclusion.md",
-    "File-Inclusion/WebShell.md",
-    "File-Inclusion/Untitled.md",
-    "DVWA-Status.md",
-    "XSS-Reflected/XSS-Payloads.md",
-    "BugBountyHunter-Methodology.md"
+    "File-Inclusion/Leveraging-LFI-RCE.md"
   ]
 }

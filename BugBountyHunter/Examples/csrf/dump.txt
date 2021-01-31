@@ -19,4 +19,6 @@ URL = "http://192.168.0.105/dvwa/vulnerabilities/csrf/test_credentials.php"
 <script>alert(1);</script>
 
 
+<script src="<a href="http://localhost"></script>
+
 

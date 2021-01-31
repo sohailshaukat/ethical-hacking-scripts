@@ -2,8 +2,8 @@ Category | Low | Medium | High
 -|-|-|-
 Brute Force | Done | Done | Done
 Command Injection| Done | Done | Done
-CSRF| Done | Done | 
-File Inclusion|
+CSRF| Done | Done | Done
+File Inclusion| Done | Done | Done
 File Upload|
 Insecure CAPTCHA|
 SQL Injection|
