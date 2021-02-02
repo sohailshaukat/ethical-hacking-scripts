@@ -4,7 +4,7 @@ Brute Force | Done | Done | Done
 Command Injection| Done | Done | Done
 CSRF| Done | Done | Done
 File Inclusion| Done | Done | Done
-File Upload | 
+File Upload | Done | Done | 
 Insecure CAPTCHA|
 SQL Injection|
 SQL Injection (Blind) |
