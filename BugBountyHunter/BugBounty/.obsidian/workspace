@@ -4,49 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "d2e131bba5d7c6d5",
-        "type": "split",
-        "dimension": 37.2402327514547,
-        "children": [
-          {
-            "id": "80bf8ad23a77a58f",
-            "type": "leaf",
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File-Upload/Example.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "798180f0b54fb308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File-Upload/Acunetix.md",
-                "mode": "source"
-              }
-            },
-            "group": "87ae0a8f1e253016"
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "10c8cc59c285d07f",
+        "id": "80bf8ad23a77a58f",
         "type": "leaf",
-        "dimension": 62.759767248545316,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "File-Upload/Acunetix.md",
+            "file": "DVWA-Status.md",
+            "mode": "source"
+          }
+        },
+        "group": "2bb2fd69bdd77dcb"
+      },
+      {
+        "id": "20d65b1d0ab055e6",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "DVWA-Status.md",
             "mode": "preview"
           }
         },
-        "group": "87ae0a8f1e253016"
+        "group": "2bb2fd69bdd77dcb"
       }
     ],
     "direction": "vertical"
@@ -102,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File-Upload/Example.md",
+                "file": "DVWA-Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,12 +99,12 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "File-Upload/Example.md",
-    "File-Upload/Acunetix.md",
     "DVWA-Status.md",
+    "File-Upload/Example.md",
+    "File-Upload/OWASP.md",
+    "File-Upload/Acunetix.md",
     "File-Upload/Links.md",
     "File-Inclusion/Payloads.md",
-    "File-Upload/OWASP.md",
     "File-Upload/Untitled.md",
     "CommandInjection/Tools.md",
     "File-Upload/Securiteam.md",
