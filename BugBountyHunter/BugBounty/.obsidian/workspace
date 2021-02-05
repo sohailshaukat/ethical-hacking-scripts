@@ -6,10 +6,12 @@
       {
         "id": "80bf8ad23a77a58f",
         "type": "leaf",
+        "dimension": 50.2705953096813,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DVWA-Status.md",
+            "file": "File-Upload/Example.md",
             "mode": "source"
           }
         },
@@ -18,11 +20,11 @@
       {
         "id": "20d65b1d0ab055e6",
         "type": "leaf",
-        "active": true,
+        "dimension": 49.7294046903187,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "DVWA-Status.md",
+            "file": "File-Upload/Example.md",
             "mode": "preview"
           }
         },
@@ -82,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DVWA-Status.md",
+                "file": "File-Upload/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +101,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "DVWA-Status.md",
     "File-Upload/Example.md",
+    "DVWA-Status.md",
     "File-Upload/OWASP.md",
     "File-Upload/Acunetix.md",
     "File-Upload/Links.md",
