@@ -82,6 +82,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "A4-XML-External-Entities-XXE/XML-External-Entity.md",
     "A1-Injection/Union-Based-SQLi.md",
     "A1-Injection/SQL-Injection.md",
     "A8-Insecure-Deserialization/Insecure-Deserialization.md",
@@ -90,7 +91,6 @@
     "A2-Broken-Authentication/BrokenAuthenticationExplained.md",
     "A2-Broken-Authentication/BrokenAuthentication+SessionManagement.md",
     "A10-Insufficient-Logging-And-Monitoring/Prevention.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md",
-    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring-Threat-Impact.md"
+    "A10-Insufficient-Logging-And-Monitoring/Insufficient-Logging-And-Monitoring.md"
   ]
 }
