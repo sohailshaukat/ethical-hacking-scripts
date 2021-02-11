@@ -1,6 +1,6 @@
 # Introduction
 
-## [](https://github.com/sqlmapproject/sqlmap/wiki/Introduction#detect-and-exploit-a-sql-injection)Detect and exploit a SQL injection
+## [Detect and exploit a SQL injection](https://github.com/sqlmapproject/sqlmap/wiki/Introduction#detect-and-exploit-a-sql-injection)
 
 Let's say that you are auditing a web application and found a web page that accepts dynamic user-provided values via `GET`, `POST` or `Cookie` parameters or via the HTTP `User-Agent` request header. You now want to test if these are affected by a SQL injection vulnerability, and if so, exploit them to retrieve as much information as possible from the back-end database management system, or even be able to access the underlying file system and operating system.
 

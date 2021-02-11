@@ -6,7 +6,7 @@ CSRF| Done | Done | Done
 File Inclusion| Done | Done | Done
 File Upload | Done | Done | Done
 Insecure CAPTCHA|
-SQL Injection|
+SQL Injection|Done |
 SQL Injection (Blind) |
 Weak Session IDs |
 XSS (DOM) | Done | Done | Done

