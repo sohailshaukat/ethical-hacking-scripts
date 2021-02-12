@@ -22,7 +22,7 @@
           "type": "markdown",
           "state": {
             "file": "SQL-Injection/Links.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -98,14 +98,14 @@
   },
   "lastOpenFiles": [
     "SQL-Injection/Links.md",
+    "SQL-Injection/CheatSheet.md",
+    "SQL-Injection/Examples.md",
+    "SQL-Injection/SQLMAP/Features.md",
     "SQL-Injection/Untitled.md",
     "DVWA-Status.md",
     "SQL-Injection/SQLMAP/Untitled.md",
     "SQL-Injection/SQLMAP/Intoduction.md",
     "SQL-Injection/SQLMAP/Links.md",
-    "SQL-Injection/CheatSheet.md",
-    "SQL-Injection/WikiPedia.md",
-    "SQL-Injection/SecuriTeam.md",
-    "Resources.md"
+    "SQL-Injection/WikiPedia.md"
   ]
 }
