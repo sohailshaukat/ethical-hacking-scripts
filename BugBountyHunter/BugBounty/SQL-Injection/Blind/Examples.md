@@ -1,7 +1,7 @@
 ## Blind SQLi
 - This one is purely based on trial and error, where you request a query that results true and then request a query that returns false. And by doing that we can eventually guess stuff.
 - Below trial and error example is to get information regarding version of the data base
-- AUTOMATED TOOL IN PROGESS
+- Automated tool is done.
 ```
 // ACTUAL VERSION - 10.4.17-MariaDB
 
