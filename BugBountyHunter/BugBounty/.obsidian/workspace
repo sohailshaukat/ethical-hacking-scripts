@@ -4,31 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "20d65b1d0ab055e6",
+        "id": "c80c1b29cd2f91ae",
         "type": "leaf",
-        "dimension": 50.20781379883624,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SQL-Injection/Blind/OWASP.md",
-            "mode": "source"
-          }
-        },
-        "group": "1e68e889e79df9fd"
-      },
-      {
-        "id": "5082e7c04144553b",
-        "type": "leaf",
-        "dimension": 49.79218620116376,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL-Injection/Blind/OWASP.md",
+            "file": "SQL-Injection/Blind/Examples.md",
+            "mode": "source"
+          }
+        },
+        "group": "005ff01744cc0cb9"
+      },
+      {
+        "id": "1c57cf708e7184b2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SQL-Injection/Blind/Examples.md",
             "mode": "preview"
           }
         },
-        "group": "1e68e889e79df9fd"
+        "group": "005ff01744cc0cb9"
       }
     ],
     "direction": "vertical"
@@ -84,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL-Injection/Blind/OWASP.md",
+                "file": "SQL-Injection/Blind/Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "SQL-Injection/Blind/Examples.md",
+    "DVWA-Status.md",
+    "SQL-Injection/Examples.md",
     "SQL-Injection/Blind/Untitled.md",
+    "SQL-Injection/Blind/OWASP.md",
     "SQL-Injection/Links.md",
     "SQL-Injection/Blind/Links.md",
     "SQL-Injection/Untitled.md",
-    "SQL-Injection/Examples.md",
-    "DVWA-Status.md",
     "SQL-Injection/TestingGuide.md",
-    "SQL-Injection/WikiPedia.md",
-    "SQL-Injection/SQLMAP/Intoduction.md",
-    "SQL-Injection/SecuriTeam.md"
+    "SQL-Injection/WikiPedia.md"
   ]
 }

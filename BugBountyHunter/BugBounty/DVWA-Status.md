@@ -7,7 +7,7 @@ File Inclusion| Done | Done | Done
 File Upload | Done | Done | Done
 Insecure CAPTCHA|
 SQL Injection|Done | Done | Done
-SQL Injection (Blind) | 
+SQL Injection (Blind) | Done | | Done 
 Weak Session IDs |
 XSS (DOM) | Done | Done | Done
 XSS (Reflected) | Done | Done | Done

