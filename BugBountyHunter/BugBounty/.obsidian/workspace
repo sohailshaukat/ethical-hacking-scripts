@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL-Injection/Examples.md",
-            "mode": "preview"
+            "file": "SQL-Injection/Blind/OWASP.md",
+            "mode": "source"
           }
         },
         "group": "1e68e889e79df9fd"
@@ -24,8 +24,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL-Injection/Examples.md",
-            "mode": "source"
+            "file": "SQL-Injection/Blind/OWASP.md",
+            "mode": "preview"
           }
         },
         "group": "1e68e889e79df9fd"
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL-Injection/Examples.md",
+                "file": "SQL-Injection/Blind/OWASP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "SQL-Injection/Blind/Untitled.md",
+    "SQL-Injection/Links.md",
+    "SQL-Injection/Blind/Links.md",
+    "SQL-Injection/Untitled.md",
     "SQL-Injection/Examples.md",
     "DVWA-Status.md",
     "SQL-Injection/TestingGuide.md",
-    "SQL-Injection/Links.md",
     "SQL-Injection/WikiPedia.md",
     "SQL-Injection/SQLMAP/Intoduction.md",
-    "SQL-Injection/SecuriTeam.md",
-    "SQL-Injection/SQLMAP/Features.md",
-    "SQL-Injection/CheatSheet.md",
-    "SQL-Injection/Untitled.md"
+    "SQL-Injection/SecuriTeam.md"
   ]
 }
