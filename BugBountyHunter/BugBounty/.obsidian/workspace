@@ -6,6 +6,7 @@
       {
         "id": "c80c1b29cd2f91ae",
         "type": "leaf",
+        "dimension": 38.563488670371946,
         "active": true,
         "state": {
           "type": "markdown",
@@ -17,8 +18,21 @@
         "group": "005ff01744cc0cb9"
       },
       {
+        "id": "0cdfcca3feb24be5",
+        "type": "leaf",
+        "dimension": 41.727233860624196,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "SQL-Injection/Examples.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
         "id": "1c57cf708e7184b2",
         "type": "leaf",
+        "dimension": 19.709277469003844,
         "state": {
           "type": "markdown",
           "state": {
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "msfvenom",
+                "query": "chr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,11 +76,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 197
+    "width": 197,
+    "collapsed": true
   },
   "right": {
     "id": "c4ded7ceba24d1f3",
@@ -100,14 +116,14 @@
   },
   "lastOpenFiles": [
     "SQL-Injection/Blind/Examples.md",
-    "DVWA-Status.md",
     "SQL-Injection/Examples.md",
+    "SQL-Injection/CheatSheet.md",
+    "DVWA-Status.md",
     "SQL-Injection/Blind/Untitled.md",
     "SQL-Injection/Blind/OWASP.md",
     "SQL-Injection/Links.md",
     "SQL-Injection/Blind/Links.md",
     "SQL-Injection/Untitled.md",
-    "SQL-Injection/TestingGuide.md",
-    "SQL-Injection/WikiPedia.md"
+    "SQL-Injection/TestingGuide.md"
   ]
 }

