@@ -11,6 +11,6 @@ Weak Session IDs | Done | Done | Done
 XSS (DOM) | Done | Done | Done
 XSS (Reflected) | Done | Done | Done
 XSS (Stored) | Done | Done | Done
-CSP Bypass |
-Javascript | 
+CSP Bypass | Skip | Skip | Skip
+Javascript | Done |
 
