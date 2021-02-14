@@ -62,15 +62,15 @@
 	
 
 	<div class="vulnerable_code_area">
-		<form action="#" method="GET">
+		<form action="#" method="POST">
 			<p>
 				User ID:
-				<input type="text" size="15" name="id">
+				<select name="id"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
 				<input type="submit" name="Submit" value="Submit">
 			</p>
 
 		</form>
-		<pre>User ID exists in the database.</pre>
+		
 	</div>
 
 	<h2>More Information</h2>
@@ -93,7 +93,7 @@
 			</div>
 
 			<div id="system_info">
-				<input type="button" value="View Help" class="popup_button" id='help_button' data-help-url='../../vulnerabilities/view_help.php?id=sqli_blind&security=low' )"> <input type="button" value="View Source" class="popup_button" id='source_button' data-source-url='../../vulnerabilities/view_source.php?id=sqli_blind&security=low' )"> <div align="left"><em>Username:</em> admin<br /><em>Security Level:</em> low<br /><em>PHPIDS:</em> disabled</div>
+				<input type="button" value="View Help" class="popup_button" id='help_button' data-help-url='../../vulnerabilities/view_help.php?id=sqli_blind&security=medium' )"> <input type="button" value="View Source" class="popup_button" id='source_button' data-source-url='../../vulnerabilities/view_source.php?id=sqli_blind&security=medium' )"> <div align="left"><em>Username:</em> admin<br /><em>Security Level:</em> medium<br /><em>PHPIDS:</em> disabled</div>
 			</div>
 
 			<div id="footer">

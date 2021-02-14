@@ -4,43 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "c80c1b29cd2f91ae",
+        "id": "1c57cf708e7184b2",
         "type": "leaf",
-        "dimension": 38.563488670371946,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL-Injection/Blind/Examples.md",
+            "file": "DVWA-Status.md",
             "mode": "source"
           }
         },
-        "group": "005ff01744cc0cb9"
+        "group": "977cf3aea5c4c8b2"
       },
       {
-        "id": "0cdfcca3feb24be5",
+        "id": "b4864e8e4c1905cf",
         "type": "leaf",
-        "dimension": 41.727233860624196,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SQL-Injection/Examples.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "1c57cf708e7184b2",
-        "type": "leaf",
-        "dimension": 19.709277469003844,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SQL-Injection/Blind/Examples.md",
+            "file": "DVWA-Status.md",
             "mode": "preview"
           }
         },
-        "group": "005ff01744cc0cb9"
+        "group": "977cf3aea5c4c8b2"
       }
     ],
     "direction": "vertical"
@@ -76,13 +62,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 197,
-    "collapsed": true
+    "width": 197
   },
   "right": {
     "id": "c4ded7ceba24d1f3",
@@ -98,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL-Injection/Blind/Examples.md",
+                "file": "DVWA-Status.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "SQL-Injection/Blind/Examples.md",
-    "SQL-Injection/Examples.md",
-    "SQL-Injection/CheatSheet.md",
     "DVWA-Status.md",
+    "SQL-Injection/Examples.md",
+    "File-Upload/Acunetix.md",
+    "SQL-Injection/Blind/Examples.md",
+    "SQL-Injection/CheatSheet.md",
     "SQL-Injection/Blind/Untitled.md",
     "SQL-Injection/Blind/OWASP.md",
     "SQL-Injection/Links.md",
     "SQL-Injection/Blind/Links.md",
-    "SQL-Injection/Untitled.md",
-    "SQL-Injection/TestingGuide.md"
+    "SQL-Injection/Untitled.md"
   ]
 }

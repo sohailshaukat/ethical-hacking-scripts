@@ -5,10 +5,9 @@ Command Injection| Done | Done | Done
 CSRF| Done | Done | Done
 File Inclusion| Done | Done | Done
 File Upload | Done | Done | Done
-Insecure CAPTCHA|
 SQL Injection|Done | Done | Done
-SQL Injection (Blind) | Done | | Done 
-Weak Session IDs |
+SQL Injection (Blind) | Done | Done | Done 
+Weak Session IDs | Done | Done | Done
 XSS (DOM) | Done | Done | Done
 XSS (Reflected) | Done | Done | Done
 XSS (Stored) | Done | Done | Done
