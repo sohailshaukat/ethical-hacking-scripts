@@ -8,3 +8,8 @@ a' UNION SELECT "lol", @@VERSION ; -- #
 
 
 server 
+
+ 
+"security=low;PHPSESSID=g832d5mrsta7pm9c1hug0bj8io"
+ 
+sqlmap 

