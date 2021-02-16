@@ -7,4 +7,4 @@ a' UNION SELECT "lol", @@VERSION ; -- -
 a' UNION SELECT "lol", @@VERSION ; -- #
 
 
- server 
+server 
