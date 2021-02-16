@@ -6,7 +6,11 @@
       {
         "id": "1c57cf708e7184b2",
         "type": "leaf",
+<<<<<<< HEAD
+        "dimension": 45.74780058651026,
+=======
         "active": true,
+>>>>>>> 17e3ab22964797dba9ddaf1a180f12acb7d0fbf0
         "state": {
           "type": "markdown",
           "state": {
@@ -19,6 +23,11 @@
       {
         "id": "b4864e8e4c1905cf",
         "type": "leaf",
+<<<<<<< HEAD
+        "dimension": 54.252199413489734,
+        "active": true,
+=======
+>>>>>>> 17e3ab22964797dba9ddaf1a180f12acb7d0fbf0
         "state": {
           "type": "markdown",
           "state": {
