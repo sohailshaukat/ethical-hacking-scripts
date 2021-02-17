@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "2e7461ade99d6e97",
+    "id": "55be4ad7acd20f1c",
     "type": "split",
     "children": [
       {
-        "id": "1931ca8d41514dba",
+        "id": "6599fbe24da90bb1",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CommandInjection/Tools.md",
-            "mode": "preview"
+            "file": "ScriptKiddie/BoxDump.md",
+            "mode": "source"
           }
         }
       }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8b99c4eb2d0c1137",
+    "id": "a680af903cf02213",
     "type": "split",
     "children": [
       {
-        "id": "314eb6c4ffbe6655",
+        "id": "a1e679f9d7313cee",
         "type": "tabs",
         "children": [
           {
-            "id": "a794b30a5550d482",
+            "id": "0e37d5ebe102a788",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "07c4f1fbd2c9454c",
+            "id": "98a4be5810445bf0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "cef9e06ec138206b",
+    "id": "b01825a2aa2bd4cd",
     "type": "split",
     "children": [
       {
-        "id": "719771f2aca2d95d",
+        "id": "f8022a556eee6a99",
         "type": "tabs",
         "children": [
           {
-            "id": "66d72ca931c92429",
+            "id": "77ca13dd13e89ed6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CommandInjection/Tools.md",
+                "file": "ScriptKiddie/BoxDump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,6 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "CommandInjection/Tools.md",
-    "CommandInjection/FileInclude-And-Links.md",
-    "CommandInjection/Command-Injection.md"
+    "ScriptKiddie/Untitled.md"
   ]
 }
