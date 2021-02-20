@@ -6,6 +6,7 @@
       {
         "id": "9dd8dded20cd7be4",
         "type": "leaf",
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,12 +19,11 @@
       {
         "id": "4d75c786554f4f50",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "realistic-8.md",
-            "mode": "source"
+            "mode": "preview"
           }
         },
         "group": "08b43893a1f5917e"
@@ -99,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Attacks/Untitled.md",
+    "realistic-8.md",
     "realistic-7.md",
+    "Attacks/Untitled.md",
     "Attacks/realistic-7.md",
     "Attacks/realistic-6.md",
     "realistic-5.md",
     "Untitled.md",
     "realistic-4.md",
     "realistic-3.md",
-    "realistic-2.md",
-    "realistic-2/Untitled.md"
+    "realistic-2.md"
   ]
 }
