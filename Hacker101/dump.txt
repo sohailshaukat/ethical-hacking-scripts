@@ -1,3 +1,10 @@
 http://34.94.3.143/7cb9cccb9d/login
 
 
+#### MICRo CMS v2 ####
+
+http://34.94.3.143/ec02fa7d15/page/1
+
+^FLAG^c9a68483d01644184fcef8309c344dc1fea2f15fa7519244542b219279365e69$FLAG$
+
+######################
